@@ -9,6 +9,15 @@
   text-overflow: ellipsis;
   white-space: nowrap; }
 
+.text_decoration_none {
+  text-decoration: none !important; }
+
+.text_decoration_underline {
+  text-decoration: underline !important; }
+
+.text_decoration_line_through {
+  text-decoration: line-through !important; }
+
 .text_weight_thin {
   font-weight: 100 !important; }
 
@@ -46,6 +55,12 @@
   text-align: center !important; }
 
 @media screen and (min-width: 576px) {
+  .text_decoration_sm_none {
+    text-decoration: none !important; }
+  .text_decoration_sm_underline {
+    text-decoration: underline !important; }
+  .text_decoration_sm_line_through {
+    text-decoration: line-through !important; }
   .text_weight_sm_thin {
     font-weight: 100 !important; }
   .text_weight_sm_extra_light {
@@ -72,6 +87,12 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 768px) {
+  .text_decoration_md_none {
+    text-decoration: none !important; }
+  .text_decoration_md_underline {
+    text-decoration: underline !important; }
+  .text_decoration_md_line_through {
+    text-decoration: line-through !important; }
   .text_weight_md_thin {
     font-weight: 100 !important; }
   .text_weight_md_extra_light {
@@ -98,6 +119,12 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 992px) {
+  .text_decoration_lg_none {
+    text-decoration: none !important; }
+  .text_decoration_lg_underline {
+    text-decoration: underline !important; }
+  .text_decoration_lg_line_through {
+    text-decoration: line-through !important; }
   .text_weight_lg_thin {
     font-weight: 100 !important; }
   .text_weight_lg_extra_light {
@@ -124,6 +151,12 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 1200px) {
+  .text_decoration_xl_none {
+    text-decoration: none !important; }
+  .text_decoration_xl_underline {
+    text-decoration: underline !important; }
+  .text_decoration_xl_line_through {
+    text-decoration: line-through !important; }
   .text_weight_xl_thin {
     font-weight: 100 !important; }
   .text_weight_xl_extra_light {
@@ -150,6 +183,12 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 1400px) {
+  .text_decoration_xxl_none {
+    text-decoration: none !important; }
+  .text_decoration_xxl_underline {
+    text-decoration: underline !important; }
+  .text_decoration_xxl_line_through {
+    text-decoration: line-through !important; }
   .text_weight_xxl_thin {
     font-weight: 100 !important; }
   .text_weight_xxl_extra_light {

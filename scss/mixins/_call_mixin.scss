@@ -14,4 +14,8 @@
   @if $name == text_white_space {
     @include text_white_space($params);
   }
+
+  @if $name == text_decoration {
+    @include text_decoration($params);
+  }
 }
