@@ -1,0 +1,9 @@
+@mixin call_mixin($name, $params...) {
+  @if $name == text_align {
+    @include text_align($params);
+  }
+  
+  @if $name == text_weight {
+    @include text_weight($params);
+  }
+}

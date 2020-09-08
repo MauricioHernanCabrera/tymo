@@ -1,5 +1,12 @@
 @mixin breakpoint($size) {
-  @media screen and (min-width: map-get($breakpoints, $size)) {
+  @if $size=="" {
     @content;
   }
+
+  @else {
+    @media screen and (min-width: map-get($breakpoints, $size)) {
+      @content;
+    }
+  }
 }
+

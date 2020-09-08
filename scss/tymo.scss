@@ -1,5 +1,18 @@
 @import "variables";
 
+// mixins
 @import "mixins/breakpoint";
+@import "mixins/call_mixin";
+@import "mixins/utilities_generator";
 
-@import "utilities/text";
+// mixins_utils
+@import "mixins/text";
+
+// utilities
+
+$utilities: (
+  (text_align, $text_align_responsive),
+  (text_weight, $text_weight_responsive)
+) default;
+
+@include utilities_generator($utilities);

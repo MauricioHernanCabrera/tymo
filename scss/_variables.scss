@@ -9,7 +9,7 @@ $breakpoints: (
 ) !default;
 
 // responsive-variants
-$responsive-variants: (
+$responsive_variants: (
   "": "",
   sm: "_sm",
   md: "_md",
@@ -17,3 +17,8 @@ $responsive-variants: (
   xl: "_xl",
   xxl: "_xxl",
 ) !default;
+
+
+$text_align_responsive: false !default;
+$text_weight_responsive: true !default;
+
