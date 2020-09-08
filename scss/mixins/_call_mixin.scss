@@ -10,4 +10,8 @@
   @if $name == text_truncate {
     @include text_truncate($params);
   }
+
+  @if $name == text_white_space {
+    @include text_white_space($params);
+  }
 }

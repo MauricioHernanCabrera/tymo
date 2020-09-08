@@ -9,11 +9,10 @@
 @import "mixins/text";
 
 // utilities
-
 $utilities: 
   (text_align, $text_align_responsive),
   (text_weight, $text_weight_responsive),
-  (text_truncate, $text_truncate_responsive)
- default;
+  (text_truncate, $text_truncate_responsive),
+  (text_white_space, $text_white_space_responsive);
 
 @include utilities_generator($utilities);

@@ -63,3 +63,15 @@
     white-space: nowrap;
   }
 }
+
+@mixin text_white_space($variant: "") {
+  $base_class_name: text#{$variant};
+  
+  .#{$base_class_name}_wrap {
+    white-space: normal !important;
+  }
+  
+  .#{$base_class_name}_nowrap {
+    white-space: nowrap !important;
+  }
+}

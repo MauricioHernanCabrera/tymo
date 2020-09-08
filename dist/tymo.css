@@ -1,3 +1,9 @@
+.text_wrap {
+  white-space: normal !important; }
+
+.text_nowrap {
+  white-space: nowrap !important; }
+
 .text_truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -40,10 +46,6 @@
   text-align: center !important; }
 
 @media screen and (min-width: 576px) {
-  .text_sm_truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; }
   .text_weight_sm_thin {
     font-weight: 100 !important; }
   .text_weight_sm_extra_light {
@@ -70,10 +72,6 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 768px) {
-  .text_md_truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; }
   .text_weight_md_thin {
     font-weight: 100 !important; }
   .text_weight_md_extra_light {
@@ -100,10 +98,6 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 992px) {
-  .text_lg_truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; }
   .text_weight_lg_thin {
     font-weight: 100 !important; }
   .text_weight_lg_extra_light {
@@ -130,10 +124,6 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 1200px) {
-  .text_xl_truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; }
   .text_weight_xl_thin {
     font-weight: 100 !important; }
   .text_weight_xl_extra_light {
@@ -160,10 +150,6 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 1400px) {
-  .text_xxl_truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; }
   .text_weight_xxl_thin {
     font-weight: 100 !important; }
   .text_weight_xxl_extra_light {
