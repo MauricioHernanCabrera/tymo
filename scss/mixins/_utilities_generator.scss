@@ -9,7 +9,7 @@
       $list_no_responsive: join(($name, $responsive), $list_no_responsive)
     }
   }
-  
+
   @each $name, $responsive in $list_no_responsive {
     @include call_mixin($name);
   }

@@ -8,7 +8,7 @@ $breakpoints: (
   xxl: 1400px,
 ) !default;
 
-// responsive-variants
+// responsive_variants
 $responsive_variants: (
   "": "",
   sm: "_sm",
@@ -18,7 +18,8 @@ $responsive_variants: (
   xxl: "_xxl",
 ) !default;
 
-
-$text_align_responsive: false !default;
+// has_responsive
+$text_align_responsive: true !default;
 $text_weight_responsive: true !default;
+$text_truncate_responsive: false !default;
 

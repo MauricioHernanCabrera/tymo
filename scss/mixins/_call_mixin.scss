@@ -6,4 +6,8 @@
   @if $name == text_weight {
     @include text_weight($params);
   }
+
+  @if $name == text_truncate {
+    @include text_truncate($params);
+  }
 }

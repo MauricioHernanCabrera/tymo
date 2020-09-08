@@ -53,3 +53,13 @@
     font-weight: 900 !important;
   }
 }
+
+@mixin text_truncate($variant: "") {
+  $base_class_name: text#{$variant};
+
+  .#{$base_class_name}_truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

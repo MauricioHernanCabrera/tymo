@@ -10,9 +10,10 @@
 
 // utilities
 
-$utilities: (
+$utilities: 
   (text_align, $text_align_responsive),
-  (text_weight, $text_weight_responsive)
-) default;
+  (text_weight, $text_weight_responsive),
+  (text_truncate, $text_truncate_responsive)
+ default;
 
 @include utilities_generator($utilities);

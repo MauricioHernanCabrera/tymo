@@ -1,11 +1,7 @@
-.text_right {
-  text-align: right !important; }
-
-.text_left {
-  text-align: left !important; }
-
-.text_center {
-  text-align: center !important; }
+.text_truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
 
 .text_weight_thin {
   font-weight: 100 !important; }
@@ -34,13 +30,20 @@
 .text_weight_ultra_bold {
   font-weight: 900 !important; }
 
+.text_right {
+  text-align: right !important; }
+
+.text_left {
+  text-align: left !important; }
+
+.text_center {
+  text-align: center !important; }
+
 @media screen and (min-width: 576px) {
-  .text_sm_right {
-    text-align: right !important; }
-  .text_sm_left {
-    text-align: left !important; }
-  .text_sm_center {
-    text-align: center !important; }
+  .text_sm_truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
   .text_weight_sm_thin {
     font-weight: 100 !important; }
   .text_weight_sm_extra_light {
@@ -58,15 +61,19 @@
   .text_weight_sm_extra_bold {
     font-weight: 800 !important; }
   .text_weight_sm_ultra_bold {
-    font-weight: 900 !important; } }
+    font-weight: 900 !important; }
+  .text_sm_right {
+    text-align: right !important; }
+  .text_sm_left {
+    text-align: left !important; }
+  .text_sm_center {
+    text-align: center !important; } }
 
 @media screen and (min-width: 768px) {
-  .text_md_right {
-    text-align: right !important; }
-  .text_md_left {
-    text-align: left !important; }
-  .text_md_center {
-    text-align: center !important; }
+  .text_md_truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
   .text_weight_md_thin {
     font-weight: 100 !important; }
   .text_weight_md_extra_light {
@@ -84,15 +91,19 @@
   .text_weight_md_extra_bold {
     font-weight: 800 !important; }
   .text_weight_md_ultra_bold {
-    font-weight: 900 !important; } }
+    font-weight: 900 !important; }
+  .text_md_right {
+    text-align: right !important; }
+  .text_md_left {
+    text-align: left !important; }
+  .text_md_center {
+    text-align: center !important; } }
 
 @media screen and (min-width: 992px) {
-  .text_lg_right {
-    text-align: right !important; }
-  .text_lg_left {
-    text-align: left !important; }
-  .text_lg_center {
-    text-align: center !important; }
+  .text_lg_truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
   .text_weight_lg_thin {
     font-weight: 100 !important; }
   .text_weight_lg_extra_light {
@@ -110,15 +121,19 @@
   .text_weight_lg_extra_bold {
     font-weight: 800 !important; }
   .text_weight_lg_ultra_bold {
-    font-weight: 900 !important; } }
+    font-weight: 900 !important; }
+  .text_lg_right {
+    text-align: right !important; }
+  .text_lg_left {
+    text-align: left !important; }
+  .text_lg_center {
+    text-align: center !important; } }
 
 @media screen and (min-width: 1200px) {
-  .text_xl_right {
-    text-align: right !important; }
-  .text_xl_left {
-    text-align: left !important; }
-  .text_xl_center {
-    text-align: center !important; }
+  .text_xl_truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
   .text_weight_xl_thin {
     font-weight: 100 !important; }
   .text_weight_xl_extra_light {
@@ -136,15 +151,19 @@
   .text_weight_xl_extra_bold {
     font-weight: 800 !important; }
   .text_weight_xl_ultra_bold {
-    font-weight: 900 !important; } }
+    font-weight: 900 !important; }
+  .text_xl_right {
+    text-align: right !important; }
+  .text_xl_left {
+    text-align: left !important; }
+  .text_xl_center {
+    text-align: center !important; } }
 
 @media screen and (min-width: 1400px) {
-  .text_xxl_right {
-    text-align: right !important; }
-  .text_xxl_left {
-    text-align: left !important; }
-  .text_xxl_center {
-    text-align: center !important; }
+  .text_xxl_truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
   .text_weight_xxl_thin {
     font-weight: 100 !important; }
   .text_weight_xxl_extra_light {
@@ -162,4 +181,10 @@
   .text_weight_xxl_extra_bold {
     font-weight: 800 !important; }
   .text_weight_xxl_ultra_bold {
-    font-weight: 900 !important; } }
+    font-weight: 900 !important; }
+  .text_xxl_right {
+    text-align: right !important; }
+  .text_xxl_left {
+    text-align: left !important; }
+  .text_xxl_center {
+    text-align: center !important; } }
