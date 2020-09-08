@@ -1,0 +1,19 @@
+// breakpoints
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;
+
+// responsive-variants
+$responsive-variants: (
+  "": "",
+  sm: "_sm",
+  md: "_md",
+  lg: "_lg",
+  xl: "_xl",
+  xxl: "_xxl",
+) !default;

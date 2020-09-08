@@ -1,0 +1,24 @@
+{
+  "name": "tymo-utils",
+  "version": "1.0.0",
+  "description": "You do not need more utils than these",
+  "main": "scss/tymo.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauricioHernanCabrera/tymo.git"
+  },
+  "keywords": [
+    "css",
+    "utils",
+    "sass"
+  ],
+  "author": "Mauricio Hernan Cabrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauricioHernanCabrera/tymo/issues"
+  },
+  "homepage": "https://github.com/MauricioHernanCabrera/tymo#readme"
+}
