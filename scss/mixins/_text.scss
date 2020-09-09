@@ -91,3 +91,15 @@
     text-decoration: line-through !important;
   }
 }
+
+@mixin text_style($variant: "") {
+  $base_class_name: text#{$variant};
+  
+  .#{$base_class_name}_italic {
+    font-style: italic !important;
+  }
+
+  .#{$base_class_name}_normal {
+    font-style: normal !important;
+  }
+}

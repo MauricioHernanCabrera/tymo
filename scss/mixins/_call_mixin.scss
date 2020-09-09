@@ -18,4 +18,8 @@
   @if $name == text_decoration {
     @include text_decoration($params);
   }
+
+  @if $name == text_style {
+    @include text_style($params);
+  }
 }

@@ -15,6 +15,7 @@ $utilities:
   (text_truncate, $text_truncate_responsive),
   (text_white_space, $text_white_space_responsive),
   (text_decoration, $text_decoration_responsive),
+  (text_style, $text_style_responsive),
 ;
 
 @include utilities_generator($utilities);
