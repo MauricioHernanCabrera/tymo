@@ -22,4 +22,8 @@
   @if $name == text_style {
     @include text_style($params);
   }
+
+  @if $name == text_transform {
+    @include text_transform($params);
+  }
 }

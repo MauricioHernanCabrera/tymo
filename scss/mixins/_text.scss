@@ -1,5 +1,5 @@
 @mixin text_align($variant: "") {
-  $base_class_name: text#{$variant};
+  $base_class_name: text_align#{$variant};
 
   .#{$base_class_name}_right {
     text-align: right !important;
@@ -58,14 +58,14 @@
   $base_class_name: text#{$variant};
 
   .#{$base_class_name}_truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
   }
 }
 
 @mixin text_white_space($variant: "") {
-  $base_class_name: text#{$variant};
+  $base_class_name: text_white_space#{$variant};
   
   .#{$base_class_name}_wrap {
     white-space: normal !important;
@@ -93,7 +93,7 @@
 }
 
 @mixin text_style($variant: "") {
-  $base_class_name: text#{$variant};
+  $base_class_name: text_style#{$variant};
   
   .#{$base_class_name}_italic {
     font-style: italic !important;
@@ -101,5 +101,29 @@
 
   .#{$base_class_name}_normal {
     font-style: normal !important;
+  }
+
+  .#{$base_class_name}_oblique {
+    font-style: oblique !important;
+  }
+}
+
+@mixin text_transform($variant: "") {
+  $base_class_name: text_transform#{$variant};
+  
+  .#{$base_class_name}_uppercase {
+    text-transform: uppercase !important;
+  }
+
+  .#{$base_class_name}_lowercase {
+    text-transform: lowercase !important;
+  }
+
+  .#{$base_class_name}_none {
+    text-transform: none !important;
+  }
+
+  .#{$base_class_name}_capitalize {
+    text-transform: capitalize !important;
   }
 }
