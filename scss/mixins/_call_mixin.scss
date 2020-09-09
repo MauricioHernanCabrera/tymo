@@ -26,4 +26,8 @@
   @if $name == text_transform {
     @include text_transform($params);
   }
+
+  @if $name == text_break_word {
+    @include text_break_word($params);
+  }
 }

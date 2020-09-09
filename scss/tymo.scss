@@ -6,7 +6,7 @@
 @import "mixins/utilities_generator";
 
 // mixins_utils
-@import "mixins/text";
+@import "mixins/text/index";
 
 // utilities
 $utilities: 
@@ -17,6 +17,7 @@ $utilities:
   (text_decoration, $text_decoration_responsive),
   (text_style, $text_style_responsive),
   (text_transform, $text_transform_responsive),
+  (text_break_word, $text_break_word_responsive),
 ;
 
 @include utilities_generator($utilities);

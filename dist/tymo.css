@@ -21,6 +21,14 @@
   text-overflow: ellipsis !important;
   white-space: nowrap !important; }
 
+.text_break_word {
+  word-break: break-word !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important; }
+
+.text_break_word_all {
+  word-break: break-all !important; }
+
 .text_style_italic {
   font-style: italic !important; }
 
@@ -76,6 +84,12 @@
   text-align: center !important; }
 
 @media screen and (min-width: 576px) {
+  .text_break_word_sm {
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important; }
+  .text_break_word_sm_all {
+    word-break: break-all !important; }
   .text_style_sm_italic {
     font-style: italic !important; }
   .text_style_sm_normal {
@@ -114,6 +128,12 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 768px) {
+  .text_break_word_md {
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important; }
+  .text_break_word_md_all {
+    word-break: break-all !important; }
   .text_style_md_italic {
     font-style: italic !important; }
   .text_style_md_normal {
@@ -152,6 +172,12 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 992px) {
+  .text_break_word_lg {
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important; }
+  .text_break_word_lg_all {
+    word-break: break-all !important; }
   .text_style_lg_italic {
     font-style: italic !important; }
   .text_style_lg_normal {
@@ -190,6 +216,12 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 1200px) {
+  .text_break_word_xl {
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important; }
+  .text_break_word_xl_all {
+    word-break: break-all !important; }
   .text_style_xl_italic {
     font-style: italic !important; }
   .text_style_xl_normal {
@@ -228,6 +260,12 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 1400px) {
+  .text_break_word_xxl {
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important; }
+  .text_break_word_xxl_all {
+    word-break: break-all !important; }
   .text_style_xxl_italic {
     font-style: italic !important; }
   .text_style_xxl_normal {
