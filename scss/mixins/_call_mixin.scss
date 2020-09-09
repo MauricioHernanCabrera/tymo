@@ -1,0 +1,33 @@
+@mixin call_mixin($name, $params...) {
+  @if $name == text_align {
+    @include text_align($params);
+  }
+  
+  @if $name == text_weight {
+    @include text_weight($params);
+  }
+
+  @if $name == text_truncate {
+    @include text_truncate($params);
+  }
+
+  @if $name == white_space {
+    @include white_space($params);
+  }
+
+  @if $name == text_decoration {
+    @include text_decoration($params);
+  }
+
+  @if $name == text_style {
+    @include text_style($params);
+  }
+
+  @if $name == text_transform {
+    @include text_transform($params);
+  }
+
+  @if $name == break_word {
+    @include break_word($params);
+  }
+}

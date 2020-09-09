@@ -1,0 +1,13 @@
+@mixin break_word($variant: "") {
+  $base_class_name: break_word#{$variant};
+  
+  .#{$base_class_name} {
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .#{$base_class_name}_all {
+    word-break: break-all !important;
+  }
+}

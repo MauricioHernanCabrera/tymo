@@ -1,5 +1,30 @@
 @import "variables";
 
+// mixins
 @import "mixins/breakpoint";
+@import "mixins/call_mixin";
+@import "mixins/utilities_generator";
 
-@import "utilities/text";
+// mixins_utils
+@import "mixins/break_word";
+@import "mixins/text_align";
+@import "mixins/text_decoration";
+@import "mixins/text_style";
+@import "mixins/text_transform";
+@import "mixins/text_truncate";
+@import "mixins/text_weight";
+@import "mixins/white_space";
+
+// utilities
+$utilities: 
+  (text_align, $text_align_responsive),
+  (text_weight, $text_weight_responsive),
+  (text_truncate, $text_truncate_responsive),
+  (white_space, $white_space_responsive),
+  (text_decoration, $text_decoration_responsive),
+  (text_style, $text_style_responsive),
+  (text_transform, $text_transform_responsive),
+  (break_word, $break_word_responsive),
+;
+
+@include utilities_generator($utilities);
