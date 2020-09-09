@@ -1,5 +1,5 @@
-@mixin text_white_space($variant: "") {
-  $base_class_name: text_white_space#{$variant};
+@mixin white_space($variant: "") {
+  $base_class_name: white_space#{$variant};
   
   .#{$base_class_name}_wrap {
     white-space: normal !important;

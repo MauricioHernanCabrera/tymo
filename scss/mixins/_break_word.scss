@@ -1,5 +1,5 @@
-@mixin text_break_word($variant: "") {
-  $base_class_name: text_break_word#{$variant};
+@mixin break_word($variant: "") {
+  $base_class_name: break_word#{$variant};
   
   .#{$base_class_name} {
     word-break: break-word !important;

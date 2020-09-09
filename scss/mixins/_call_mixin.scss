@@ -11,8 +11,8 @@
     @include text_truncate($params);
   }
 
-  @if $name == text_white_space {
-    @include text_white_space($params);
+  @if $name == white_space {
+    @include white_space($params);
   }
 
   @if $name == text_decoration {
@@ -27,7 +27,7 @@
     @include text_transform($params);
   }
 
-  @if $name == text_break_word {
-    @include text_break_word($params);
+  @if $name == break_word {
+    @include break_word($params);
   }
 }
