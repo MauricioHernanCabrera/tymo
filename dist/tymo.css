@@ -21,6 +21,27 @@
   text-overflow: ellipsis !important;
   white-space: nowrap !important; }
 
+.vertical_align_baseline {
+  vertical-align: baseline !important; }
+
+.vertical_align_top {
+  vertical-align: top !important; }
+
+.vertical_align_middle {
+  vertical-align: middle !important; }
+
+.vertical_align_bottom {
+  vertical-align: bottom !important; }
+
+.vertical_align_text_bottom {
+  vertical-align: text-bottom !important; }
+
+.vertical_align_text_top {
+  vertical-align: text-top !important; }
+
+.vertical_align_baseline {
+  vertical-align: baseline !important; }
+
 .break_word {
   word-break: break-word !important;
   word-wrap: break-word !important;
@@ -84,6 +105,20 @@
   text-align: center !important; }
 
 @media screen and (min-width: 576px) {
+  .vertical_align_sm_baseline {
+    vertical-align: baseline !important; }
+  .vertical_align_sm_top {
+    vertical-align: top !important; }
+  .vertical_align_sm_middle {
+    vertical-align: middle !important; }
+  .vertical_align_sm_bottom {
+    vertical-align: bottom !important; }
+  .vertical_align_sm_text_bottom {
+    vertical-align: text-bottom !important; }
+  .vertical_align_sm_text_top {
+    vertical-align: text-top !important; }
+  .vertical_align_sm_baseline {
+    vertical-align: baseline !important; }
   .break_word_sm {
     word-break: break-word !important;
     word-wrap: break-word !important;
@@ -128,6 +163,20 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 768px) {
+  .vertical_align_md_baseline {
+    vertical-align: baseline !important; }
+  .vertical_align_md_top {
+    vertical-align: top !important; }
+  .vertical_align_md_middle {
+    vertical-align: middle !important; }
+  .vertical_align_md_bottom {
+    vertical-align: bottom !important; }
+  .vertical_align_md_text_bottom {
+    vertical-align: text-bottom !important; }
+  .vertical_align_md_text_top {
+    vertical-align: text-top !important; }
+  .vertical_align_md_baseline {
+    vertical-align: baseline !important; }
   .break_word_md {
     word-break: break-word !important;
     word-wrap: break-word !important;
@@ -172,6 +221,20 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 992px) {
+  .vertical_align_lg_baseline {
+    vertical-align: baseline !important; }
+  .vertical_align_lg_top {
+    vertical-align: top !important; }
+  .vertical_align_lg_middle {
+    vertical-align: middle !important; }
+  .vertical_align_lg_bottom {
+    vertical-align: bottom !important; }
+  .vertical_align_lg_text_bottom {
+    vertical-align: text-bottom !important; }
+  .vertical_align_lg_text_top {
+    vertical-align: text-top !important; }
+  .vertical_align_lg_baseline {
+    vertical-align: baseline !important; }
   .break_word_lg {
     word-break: break-word !important;
     word-wrap: break-word !important;
@@ -216,6 +279,20 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 1200px) {
+  .vertical_align_xl_baseline {
+    vertical-align: baseline !important; }
+  .vertical_align_xl_top {
+    vertical-align: top !important; }
+  .vertical_align_xl_middle {
+    vertical-align: middle !important; }
+  .vertical_align_xl_bottom {
+    vertical-align: bottom !important; }
+  .vertical_align_xl_text_bottom {
+    vertical-align: text-bottom !important; }
+  .vertical_align_xl_text_top {
+    vertical-align: text-top !important; }
+  .vertical_align_xl_baseline {
+    vertical-align: baseline !important; }
   .break_word_xl {
     word-break: break-word !important;
     word-wrap: break-word !important;
@@ -260,6 +337,20 @@
     text-align: center !important; } }
 
 @media screen and (min-width: 1400px) {
+  .vertical_align_xxl_baseline {
+    vertical-align: baseline !important; }
+  .vertical_align_xxl_top {
+    vertical-align: top !important; }
+  .vertical_align_xxl_middle {
+    vertical-align: middle !important; }
+  .vertical_align_xxl_bottom {
+    vertical-align: bottom !important; }
+  .vertical_align_xxl_text_bottom {
+    vertical-align: text-bottom !important; }
+  .vertical_align_xxl_text_top {
+    vertical-align: text-top !important; }
+  .vertical_align_xxl_baseline {
+    vertical-align: baseline !important; }
   .break_word_xxl {
     word-break: break-word !important;
     word-wrap: break-word !important;
