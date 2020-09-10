@@ -21,7 +21,6 @@ $theme_colors: (
 
 // breakpoints
 $breakpoints: (
-  xs:  0,
   sm:  576px,
   md:  768px,
   lg:  992px,
@@ -115,3 +114,6 @@ $fonts: (
 
 // aspect ratio
 $aspect_ratios: ((21, 9), (16, 9), (4, 3), (1, 1)) !default;
+
+// container
+$container_default: xl !default;
