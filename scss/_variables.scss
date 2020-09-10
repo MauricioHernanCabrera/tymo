@@ -65,6 +65,8 @@ $list_responsive:             false !default;
 $aspect_ratio_responsive:     true !default;
 $width_responsive:            false !default;
 $max_width_responsive:        false !default;
+$height_responsive:           false !default;
+$max_height_responsive:       false !default;
 
 // padding
 $padding_min:        0 !default;
@@ -122,6 +124,15 @@ $container_default: xl !default;
 
 // width
 $widths: (
+  25:   25%,
+  50:   50%,
+  75:   75%,
+  100:  100%,
+  auto: auto
+) !default;
+
+// height
+$heights: (
   25:   25%,
   50:   50%,
   75:   75%,

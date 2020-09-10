@@ -1,0 +1,7 @@
+@mixin height($variant: "") {
+  $base_class_name: h#{$variant};
+  
+  @each $key, $value in $heights {
+    .#{$base_class_name}_#{$key} { height: $value !important; }
+  }
+}

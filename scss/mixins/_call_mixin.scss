@@ -26,4 +26,6 @@
   @if $name == aspect_ratio     { @include aspect_ratio($params); }
   @if $name == width            { @include width($params); }
   @if $name == max_width        { @include max_width($params); }
+  @if $name == height           { @include height($params); }
+  @if $name == max_height       { @include max_height($params); }
 }

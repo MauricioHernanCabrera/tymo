@@ -895,8 +895,26 @@
 .w_auto {
   width: auto !important; }
 
-.mw {
+.mw_100 {
   max-width: 100% !important; }
+
+.h_25 {
+  height: 25% !important; }
+
+.h_50 {
+  height: 50% !important; }
+
+.h_75 {
+  height: 75% !important; }
+
+.h_100 {
+  height: 100% !important; }
+
+.h_auto {
+  height: auto !important; }
+
+.mh_100 {
+  max-height: 100% !important; }
 
 @media screen and (min-width: 576px) {
   .text_align_sm_right {
