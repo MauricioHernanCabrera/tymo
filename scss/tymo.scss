@@ -35,6 +35,7 @@
 @import "utilities/aspect_ratio";
 @import "utilities/container";
 @import "utilities/width";
+@import "utilities/max_width";
 
 // utilities
 $utilities: 
@@ -64,6 +65,7 @@ $utilities:
   (list, $list_responsive),
   (aspect_ratio, $aspect_ratio_responsive),
   (width, $width_responsive),
+  (max_width, $max_width_responsive),
 ;
 
 @include utilities_generator($utilities);

@@ -25,4 +25,5 @@
   @if $name == list             { @include list($params); }
   @if $name == aspect_ratio     { @include aspect_ratio($params); }
   @if $name == width            { @include width($params); }
+  @if $name == max_width        { @include max_width($params); }
 }

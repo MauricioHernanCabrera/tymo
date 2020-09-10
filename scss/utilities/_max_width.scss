@@ -1,0 +1,3 @@
+@mixin max_width($variant: "") {
+  .mw#{$variant} { max-width: 100% !important; }
+}
