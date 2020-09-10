@@ -62,6 +62,8 @@ $color_responsive:            false !default;
 $background_color_responsive: false !default;
 $font_family_responsive:      false !default;
 $user_select_responsive:      false !default;
+$list_responsive:             false !default;
+$aspect_ratio_responsive:     true !default;
 
 // padding
 $padding_min:        0 !default;
@@ -110,3 +112,6 @@ $orders: (
 $fonts: (
   1: ('Roboto', sans-serif)
 ) !default;
+
+// aspect ratio
+$aspect_ratios: ((21, 9), (16, 9), (4, 3), (1, 1)) !default;

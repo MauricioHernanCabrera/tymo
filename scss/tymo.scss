@@ -31,32 +31,36 @@
 @import "utilities/background_color";
 @import "utilities/font_family";
 @import "utilities/user_select";
+@import "utilities/list";
+@import "utilities/aspect_ratio";
 
 // utilities
 $utilities: 
-  (text_align, $text_align_responsive),
-  (font_weight, $font_weight_responsive),
-  (text_truncate, $text_truncate_responsive),
-  (white_space, $white_space_responsive),
-  (text_decoration, $text_decoration_responsive),
-  (font_style, $font_style_responsive),
-  (text_transform, $text_transform_responsive),
-  (break_word, $break_word_responsive),
-  (vertical_align, $vertical_align_responsive),
-  (padding, $padding_responsive),
-  (margin, $margin_responsive),
-  (visibility, $visibility_responsive),
-  (display, $display_responsive),
-  (position, $position_responsive),
-  (float, $float_responsive),
-  (overflow, $overflow_responsive),
-  (border_width, $border_width_responsive),
-  (border_color, $border_color_responsive),
-  (flex, $flex_responsive),
-  (color, $color_responsive),
-  (background_color, $background_color_responsive),
-  (font_family, $font_family_responsive),
-  (user_select, $user_select_responsive),
+  // (text_align, $text_align_responsive),
+  // (font_weight, $font_weight_responsive),
+  // (text_truncate, $text_truncate_responsive),
+  // (white_space, $white_space_responsive),
+  // (text_decoration, $text_decoration_responsive),
+  // (font_style, $font_style_responsive),
+  // (text_transform, $text_transform_responsive),
+  // (break_word, $break_word_responsive),
+  // (vertical_align, $vertical_align_responsive),
+  // (padding, $padding_responsive),
+  // (margin, $margin_responsive),
+  // (visibility, $visibility_responsive),
+  // (display, $display_responsive),
+  // (position, $position_responsive),
+  // (float, $float_responsive),
+  // (overflow, $overflow_responsive),
+  // (border_width, $border_width_responsive),
+  // (border_color, $border_color_responsive),
+  // (flex, $flex_responsive),
+  // (color, $color_responsive),
+  // (background_color, $background_color_responsive),
+  // (font_family, $font_family_responsive),
+  // (user_select, $user_select_responsive),
+  // (list, $list_responsive),
+  (aspect_ratio, $aspect_ratio_responsive),
 ;
 
 @include utilities_generator($utilities);
