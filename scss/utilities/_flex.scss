@@ -1,0 +1,40 @@
+@mixin flex($variant: "") {
+  .flex_direction#{$variant}_row            { flex-direction: row !important; }
+  .flex_direction#{$variant}_row_reverse    { flex-direction: row-reverse !important; }
+  .flex_direction#{$variant}_column         { flex-direction: column !important; }
+  .flex_direction#{$variant}_column_reverse { flex-direction: column-reverse !important; }
+  
+  .flex#{$variant}_wrap         { flex-wrap: wrap !important; }
+  .flex#{$variant}_wrap_reverse { flex-wrap: wrap-reverse !important; }
+  .flex#{$variant}_nowrap       { flex-wrap: nowrap !important; }
+  
+  .justify_content#{$variant}_start   { justify-content: flex-start !important; }
+  .justify_content#{$variant}_end     { justify-content: flex-end !important; }
+  .justify_content#{$variant}_center  { justify-content: center !important; }
+  .justify_content#{$variant}_between { justify-content: space-between !important; }
+  .justify_content#{$variant}_around  { justify-content: space-around !important; }
+  
+  .align_items#{$variant}_start    { align-items: flex-start !important; }
+  .align_items#{$variant}_end      { align-items: flex-end !important; }
+  .align_items#{$variant}_center   { align-items: center !important; }
+  .align_items#{$variant}_baseline { align-items: baseline !important; }
+  .align_items#{$variant}_stretch  { align-items: stretch !important; }
+  
+  .align_content#{$variant}_start   { align-content: flex-start !important; }
+  .align_content#{$variant}_end     { align-content: flex-end !important; }
+  .align_content#{$variant}_center  { align-content: center !important; }
+  .align_content#{$variant}_between { align-content: space-between !important; }
+  .align_content#{$variant}_around  { align-content: space-around !important; }
+  .align_content#{$variant}_stretch { align-content: stretch !important; }
+
+  .align_self#{$variant}_auto     { align-self: auto !important; }
+  .align_self#{$variant}_start    { align-self: flex-start !important; }
+  .align_self#{$variant}_end      { align-self: flex-end !important; }
+  .align_self#{$variant}_center   { align-self: center !important; }
+  .align_self#{$variant}_baseline { align-self: baseline !important; }
+  .align_self#{$variant}_stretch  { align-self: stretch !important; }
+
+  @each $key, $value in $orders {
+    .order#{$variant}_#{$key} { order: $value !important; }
+  }
+}

@@ -57,6 +57,7 @@ $margin_responsive:          true !default;
 $overflow_responsive:        false !default;
 $border_width_responsive:    false !default;
 $border_color_responsive:    false !default;
+$flex_responsive:            true !default;
 
 // padding
 $padding_min:        0 !default;
@@ -87,3 +88,16 @@ $borders_width: (
 
 $border_width: 1px !default;
 $border_color: $color_primary !default;
+
+// order values
+$orders: (
+  first: -1,
+  0:     0,
+  1:     1,
+  2:     2,
+  3:     3,
+  4:     4,
+  5:     5,
+  last:  6,
+  none:  inherit,
+) !default;

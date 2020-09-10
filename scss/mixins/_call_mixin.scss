@@ -17,4 +17,5 @@
   @if $name == overflow        { @include overflow($params) }
   @if $name == border_width    { @include border_width($params) }
   @if $name == border_color    { @include border_color($params) }
+  @if $name == flex            { @include flex($params) }
 }
