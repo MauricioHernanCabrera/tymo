@@ -29,6 +29,7 @@
 @import "utilities/flex";
 @import "utilities/color";
 @import "utilities/background_color";
+@import "utilities/font_family";
 
 // utilities
 $utilities: 
@@ -53,6 +54,7 @@ $utilities:
   (flex, $flex_responsive),
   (color, $color_responsive),
   (background_color, $background_color_responsive),
+  (font_family, $font_family_responsive),
 ;
 
 @include utilities_generator($utilities);

@@ -806,6 +806,9 @@
 .bg_transparent {
   background-color: transparent !important; }
 
+.font_1 {
+  font-family: "Roboto", sans-serif !important; }
+
 @media screen and (min-width: 576px) {
   .text_align_sm_right {
     text-align: right !important; }
