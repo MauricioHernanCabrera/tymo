@@ -776,29 +776,35 @@
 .color_grey {
   color: #EEEEEE !important; }
 
+.color_reset {
+  color: inherit !important; }
+
 .bg_primary {
-  color: #1867C0 !important; }
+  background-color: #1867C0 !important; }
 
 .bg_success {
-  color: #4CAF50 !important; }
+  background-color: #4CAF50 !important; }
 
 .bg_warning {
-  color: #FB8C00 !important; }
+  background-color: #FB8C00 !important; }
 
 .bg_error {
-  color: #FF5252 !important; }
+  background-color: #FF5252 !important; }
 
 .bg_info {
-  color: #5CBBF6 !important; }
+  background-color: #5CBBF6 !important; }
 
 .bg_light {
-  color: #ffffff !important; }
+  background-color: #ffffff !important; }
 
 .bg_dark {
-  color: #333333 !important; }
+  background-color: #333333 !important; }
 
 .bg_grey {
-  color: #EEEEEE !important; }
+  background-color: #EEEEEE !important; }
+
+.bg_transparent {
+  background-color: transparent !important; }
 
 @media screen and (min-width: 576px) {
   .text_align_sm_right {

@@ -1,7 +1,7 @@
 @mixin color($variant: "") {
   $base_class_name: color#{$variant};
   
-  @each $key, $value in $theme_colors {
+  @each $key, $value in map-merge($theme_colors, ("reset": inherit)) {
     .#{$base_class_name}_#{$key} { color: $value !important; }
   }
 }
