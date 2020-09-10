@@ -1,0 +1,7 @@
+@mixin float($variant: "") {
+  $base_class_name: float#{$variant};
+  
+  .#{$base_class_name}_none  { float: none !important }
+  .#{$base_class_name}_left  { float: left !important }
+  .#{$base_class_name}_right { float: right !important }
+}

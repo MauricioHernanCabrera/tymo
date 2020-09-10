@@ -1,30 +1,90 @@
+// colors
+$color_primary: #1867C0 !default;
+$color_success: #4CAF50 !default;
+$color_warning: #FB8C00 !default;
+$color_error:   #FF5252 !default;
+$color_info:    #5CBBF6 !default;
+$color_light:   #ffffff !default;
+$color_dark:    #333333 !default;
+$color_grey:    #EEEEEE !default;
+
+$theme_colors: (
+  primary: $color_primary,
+  success: $color_success,
+  warning: $color_warning,
+  error:   $color_error,
+  info:    $color_info,
+  light:   $color_light,
+  dark:    $color_dark,
+  grey:    $color_grey,
+) !default;
+
 // breakpoints
 $breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
+  xs:  0,
+  sm:  576px,
+  md:  768px,
+  lg:  992px,
+  xl:  1200px,
   xxl: 1400px,
 ) !default;
 
 // responsive_variants
 $responsive_variants: (
-  "": "",
-  sm: "_sm",
-  md: "_md",
-  lg: "_lg",
-  xl: "_xl",
+  "":  "",
+  sm:  "_sm",
+  md:  "_md",
+  lg:  "_lg",
+  xl:  "_xl",
   xxl: "_xxl",
 ) !default;
 
 // has_responsive
-$text_align_responsive: true !default;
-$text_weight_responsive: true !default;
-$text_truncate_responsive: false !default;
-$white_space_responsive: false !default;
+$text_align_responsive:      true !default;
+$text_weight_responsive:     true !default;
+$text_truncate_responsive:   false !default;
+$white_space_responsive:     false !default;
 $text_decoration_responsive: true !default;
-$text_style_responsive: true !default;
-$text_transform_responsive: false !default;
-$break_word_responsive: true !default;
+$text_style_responsive:      true !default;
+$text_transform_responsive:  false !default;
+$break_word_responsive:      true !default;
+$vertical_align_responsive:  false !default;
+$visibility_responsive:      false !default;
+$display_responsive:         true !default;
+$position_responsive:        false !default;
+$float_responsive:           false !default;
+$padding_responsive:         true !default;
+$margin_responsive:          true !default;
+$overflow_responsive:        false !default;
+$border_width_responsive:    false !default;
+$border_color_responsive:    false !default;
 
+// padding
+$padding_min:        0 !default;
+$padding_max:        5 !default;
+$padding_multiple:   4px !default;
+
+// margin
+$margin_min: 0 !default;
+$margin_max: 5 !default;
+$margin_multiple: 4px !default;
+
+// debugger
+$debugger_color:      $color_light !default;
+$debugger_background: $color_primary !default;
+
+// z_indexs
+$debugger_z_index: 100 !default;
+
+// border
+$borders_width: (
+  0: 0,
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px,
+) !default;
+
+$border_width: 1px !default;
+$border_color: $color_primary !default;

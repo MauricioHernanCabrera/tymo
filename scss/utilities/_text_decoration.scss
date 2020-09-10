@@ -1,0 +1,7 @@
+@mixin text_decoration($variant: "") {
+  $base_class_name: text_decoration#{$variant};
+
+  .#{$base_class_name}_none { text-decoration: none !important }
+  .#{$base_class_name}_underline { text-decoration: underline !important }
+  .#{$base_class_name}_line_through { text-decoration: line-through !important }
+}

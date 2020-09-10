@@ -1,0 +1,12 @@
+@mixin border_width($variant: "") {
+  $base_class_name: border#{$variant};
+  .#{$base_class_name} { border: $border_width solid $border_color !important }
+  
+  @each $key, $value in $borders_width {
+    .#{$base_class_name}_#{$key}        { border-width: $value !important }
+    .#{$base_class_name}_top_#{$key}    { border-top-width: $value !important }
+    .#{$base_class_name}_bottom_#{$key} { border-bottom-width: $value !important }
+    .#{$base_class_name}_left_#{$key}   { border-left-width: $value !important }
+    .#{$base_class_name}_right_#{$key}  { border-right-width: $value !important }
+  }
+}

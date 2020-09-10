@@ -4,27 +4,49 @@
 @import "mixins/breakpoint";
 @import "mixins/call_mixin";
 @import "mixins/utilities_generator";
+@import "mixins/size";
 
-// mixins_utils
-@import "mixins/break_word";
-@import "mixins/text_align";
-@import "mixins/text_decoration";
-@import "mixins/text_style";
-@import "mixins/text_transform";
-@import "mixins/text_truncate";
-@import "mixins/text_weight";
-@import "mixins/white_space";
+// utilities
+@import "utilities/break_word";
+@import "utilities/text_align";
+@import "utilities/text_decoration";
+@import "utilities/text_style";
+@import "utilities/text_transform";
+@import "utilities/text_truncate";
+@import "utilities/text_weight";
+@import "utilities/white_space";
+@import "utilities/vertical_align";
+@import "utilities/padding";
+@import "utilities/margin";
+@import "utilities/visibility";
+@import "utilities/display";
+@import "utilities/position";
+@import "utilities/debugger";
+@import "utilities/float";
+@import "utilities/overflow";
+@import "utilities/border_width";
+@import "utilities/border_color";
 
 // utilities
 $utilities: 
-  (text_align, $text_align_responsive),
-  (text_weight, $text_weight_responsive),
-  (text_truncate, $text_truncate_responsive),
-  (white_space, $white_space_responsive),
-  (text_decoration, $text_decoration_responsive),
-  (text_style, $text_style_responsive),
-  (text_transform, $text_transform_responsive),
-  (break_word, $break_word_responsive),
+  // (text_align, $text_align_responsive),
+  // (text_weight, $text_weight_responsive),
+  // (text_truncate, $text_truncate_responsive),
+  // (white_space, $white_space_responsive),
+  // (text_decoration, $text_decoration_responsive),
+  // (text_style, $text_style_responsive),
+  // (text_transform, $text_transform_responsive),
+  // (break_word, $break_word_responsive),
+  // (vertical_align, $vertical_align_responsive),
+  // (padding, $padding_responsive),
+  // (margin, $margin_responsive),
+  // (visibility, $visibility_responsive),
+  // (display, $display_responsive),
+  // (position, $position_responsive),
+  // (float, $float_responsive),
+  // (overflow, $overflow_responsive),
+  // (border_width, $border_width_responsive),
+  (border_color, $border_color_responsive),
 ;
 
 @include utilities_generator($utilities);

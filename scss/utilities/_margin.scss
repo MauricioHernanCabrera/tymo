@@ -1,0 +1,8 @@
+@mixin margin($variant: "") {
+  @include size(m, margin, $variant, auto, auto);
+  
+  @for $i from $margin_min through $margin_max {
+    $result: $i * $margin_multiple;
+    @include size(m, margin, $variant, $i, $result);
+  }
+}

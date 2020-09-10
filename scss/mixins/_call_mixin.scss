@@ -1,33 +1,20 @@
 @mixin call_mixin($name, $params...) {
-  @if $name == text_align {
-    @include text_align($params);
-  }
-  
-  @if $name == text_weight {
-    @include text_weight($params);
-  }
-
-  @if $name == text_truncate {
-    @include text_truncate($params);
-  }
-
-  @if $name == white_space {
-    @include white_space($params);
-  }
-
-  @if $name == text_decoration {
-    @include text_decoration($params);
-  }
-
-  @if $name == text_style {
-    @include text_style($params);
-  }
-
-  @if $name == text_transform {
-    @include text_transform($params);
-  }
-
-  @if $name == break_word {
-    @include break_word($params);
-  }
+  @if $name == text_align      { @include text_align($params) }
+  @if $name == text_weight     { @include text_weight($params) }
+  @if $name == text_truncate   { @include text_truncate($params) }
+  @if $name == white_space     { @include white_space($params) }
+  @if $name == text_decoration { @include text_decoration($params) }
+  @if $name == text_style      { @include text_style($params) }
+  @if $name == text_transform  { @include text_transform($params) }
+  @if $name == break_word      { @include break_word($params) }
+  @if $name == vertical_align  { @include vertical_align($params) }
+  @if $name == padding         { @include padding($params) }
+  @if $name == margin          { @include margin($params) }
+  @if $name == visibility      { @include visibility($params) }
+  @if $name == display         { @include display($params) }
+  @if $name == position        { @include position($params) }
+  @if $name == float           { @include float($params) }
+  @if $name == overflow        { @include overflow($params) }
+  @if $name == border_width    { @include border_width($params) }
+  @if $name == border_color    { @include border_color($params) }
 }

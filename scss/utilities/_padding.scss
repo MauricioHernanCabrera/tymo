@@ -1,0 +1,6 @@
+@mixin padding($variant: "") {
+  @for $i from $padding_min through $padding_max {
+    $result: $i * $padding_multiple;
+    @include size(p, padding, $variant, $i, $result);
+  }
+}
