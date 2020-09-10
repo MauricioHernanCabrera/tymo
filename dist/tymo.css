@@ -975,6 +975,21 @@
 .object_position_right_top {
   object-position: right top !important; }
 
+.object_fit_fill {
+  object-fit: fill !important; }
+
+.object_fit_contain {
+  object-fit: contain !important; }
+
+.object_fit_cover {
+  object-fit: cover !important; }
+
+.object_fit_none {
+  object-fit: none !important; }
+
+.object_fit_scale_down {
+  object-fit: scale-down !important; }
+
 @media screen and (min-width: 576px) {
   .text_align_sm_right {
     text-align: right !important; }

@@ -41,6 +41,7 @@
 @import "utilities/inset";
 @import "utilities/pointer_events";
 @import "utilities/object_position";
+@import "utilities/object_fit";
 
 // utilities
 $utilities: 
@@ -76,6 +77,7 @@ $utilities:
   (inset, $inset_responsive),
   (pointer_events, $pointer_events_responsive),
   (object_position, $object_position_responsive),
+  (object_fit, $object_fit_responsive),
 ;
 
 @include utilities_generator($utilities);
