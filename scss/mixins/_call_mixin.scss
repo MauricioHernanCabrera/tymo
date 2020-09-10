@@ -32,4 +32,5 @@
   @if $name == pointer_events   { @include pointer_events($params); }
   @if $name == object_position  { @include object_position($params); }
   @if $name == object_fit       { @include object_fit($params); }
+  @if $name == opacity          { @include opacity($params); }
 }

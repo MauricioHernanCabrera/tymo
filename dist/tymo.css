@@ -990,6 +990,21 @@
 .object_fit_scale_down {
   object-fit: scale-down !important; }
 
+.opacity_0 {
+  opacity: 0 !important; }
+
+.opacity_25 {
+  opacity: 0.25 !important; }
+
+.opacity_50 {
+  opacity: 0.5 !important; }
+
+.opacity_75 {
+  opacity: 0.75 !important; }
+
+.opacity_100 {
+  opacity: 1 !important; }
+
 @media screen and (min-width: 576px) {
   .text_align_sm_right {
     text-align: right !important; }

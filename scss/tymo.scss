@@ -42,6 +42,7 @@
 @import "utilities/pointer_events";
 @import "utilities/object_position";
 @import "utilities/object_fit";
+@import "utilities/opacity";
 
 // utilities
 $utilities: 
@@ -78,6 +79,7 @@ $utilities:
   (pointer_events, $pointer_events_responsive),
   (object_position, $object_position_responsive),
   (object_fit, $object_fit_responsive),
+  (opacity, $opacity_responsive),
 ;
 
 @include utilities_generator($utilities);

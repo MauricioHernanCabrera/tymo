@@ -71,6 +71,7 @@ $inset_responsive:            false !default;
 $pointer_events_responsive:   false !default;
 $object_position_responsive:  false !default;
 $object_fit_responsive:       false !default;
+$opacity_responsive:          false !default;
 
 // padding
 $padding_min:        0 !default;
@@ -147,4 +148,13 @@ $heights: (
   75:   75%,
   100:  100%,
   auto: auto
+) !default;
+
+// opacity
+$opacities: (
+  0:   0,
+  25:  0.25,
+  50:  0.5,
+  75:  0.75,
+  100: 1,
 ) !default;
