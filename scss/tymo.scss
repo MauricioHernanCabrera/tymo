@@ -39,6 +39,8 @@
 @import "utilities/height";
 @import "utilities/max_height";
 @import "utilities/inset";
+@import "utilities/pointer_events";
+@import "utilities/object_position";
 
 // utilities
 $utilities: 
@@ -72,6 +74,8 @@ $utilities:
   (height, $height_responsive),
   (max_height, $max_height_responsive),
   (inset, $inset_responsive),
+  (pointer_events, $pointer_events_responsive),
+  (object_position, $object_position_responsive),
 ;
 
 @include utilities_generator($utilities);

@@ -942,6 +942,39 @@
 .right_0 {
   right: 0 !important; }
 
+.pe_none {
+  pointer-events: none !important; }
+
+.pe_auto {
+  pointer-events: auto !important; }
+
+.object_position_bottom {
+  object-position: bottom !important; }
+
+.object_position_center {
+  object-position: center !important; }
+
+.object_position_left {
+  object-position: left !important; }
+
+.object_position_right {
+  object-position: right !important; }
+
+.object_position_top {
+  object-position: top !important; }
+
+.object_position_left_bottom {
+  object-position: left bottom !important; }
+
+.object_position_left_top {
+  object-position: left top !important; }
+
+.object_position_right_bottom {
+  object-position: right bottom !important; }
+
+.object_position_right_top {
+  object-position: right top !important; }
+
 @media screen and (min-width: 576px) {
   .text_align_sm_right {
     text-align: right !important; }
