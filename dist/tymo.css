@@ -776,6 +776,30 @@
 .color_grey {
   color: #EEEEEE !important; }
 
+.bg_primary {
+  color: #1867C0 !important; }
+
+.bg_success {
+  color: #4CAF50 !important; }
+
+.bg_warning {
+  color: #FB8C00 !important; }
+
+.bg_error {
+  color: #FF5252 !important; }
+
+.bg_info {
+  color: #5CBBF6 !important; }
+
+.bg_light {
+  color: #ffffff !important; }
+
+.bg_dark {
+  color: #333333 !important; }
+
+.bg_grey {
+  color: #EEEEEE !important; }
+
 @media screen and (min-width: 576px) {
   .text_align_sm_right {
     text-align: right !important; }

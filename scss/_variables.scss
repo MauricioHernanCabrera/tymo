@@ -39,26 +39,27 @@ $responsive_variants: (
 ) !default;
 
 // has_responsive
-$text_align_responsive:      true !default;
-$font_weight_responsive:     true !default;
-$text_truncate_responsive:   false !default;
-$white_space_responsive:     false !default;
-$text_decoration_responsive: true !default;
-$font_style_responsive:      true !default;
-$text_transform_responsive:  false !default;
-$break_word_responsive:      true !default;
-$vertical_align_responsive:  false !default;
-$visibility_responsive:      false !default;
-$display_responsive:         true !default;
-$position_responsive:        false !default;
-$float_responsive:           false !default;
-$padding_responsive:         true !default;
-$margin_responsive:          true !default;
-$overflow_responsive:        false !default;
-$border_width_responsive:    false !default;
-$border_color_responsive:    false !default;
-$flex_responsive:            true !default;
-$color_responsive:           false !default;
+$text_align_responsive:       true !default;
+$font_weight_responsive:      true !default;
+$text_truncate_responsive:    false !default;
+$white_space_responsive:      false !default;
+$text_decoration_responsive:  true !default;
+$font_style_responsive:       true !default;
+$text_transform_responsive:   false !default;
+$break_word_responsive:       true !default;
+$vertical_align_responsive:   false !default;
+$visibility_responsive:       false !default;
+$display_responsive:          true !default;
+$position_responsive:         false !default;
+$float_responsive:            false !default;
+$padding_responsive:          true !default;
+$margin_responsive:           true !default;
+$overflow_responsive:         false !default;
+$border_width_responsive:     false !default;
+$border_color_responsive:     false !default;
+$flex_responsive:             true !default;
+$color_responsive:            false !default;
+$background_color_responsive: false !default;
 
 // padding
 $padding_min:        0 !default;

@@ -28,6 +28,7 @@
 @import "utilities/border_color";
 @import "utilities/flex";
 @import "utilities/color";
+@import "utilities/background_color";
 
 // utilities
 $utilities: 
@@ -51,6 +52,7 @@ $utilities:
   (border_color, $border_color_responsive),
   (flex, $flex_responsive),
   (color, $color_responsive),
+  (background_color, $background_color_responsive),
 ;
 
 @include utilities_generator($utilities);
