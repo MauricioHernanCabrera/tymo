@@ -26,6 +26,15 @@
     .debugger:before {
       content: "xxl"; } }
 
+.float_none {
+  float: none !important; }
+
+.float_left {
+  float: left !important; }
+
+.float_right {
+  float: right !important; }
+
 .position_static {
   position: static !important; }
 

@@ -22,6 +22,7 @@
 @import "utilities/display";
 @import "utilities/position";
 @import "utilities/debugger";
+@import "utilities/float";
 
 // utilities
 $utilities: 
@@ -39,6 +40,7 @@ $utilities:
   (visibility, $visibility_responsive),
   (display, $display_responsive),
   (position, $position_responsive),
+  (float, $float_responsive),
 ;
 
 @include utilities_generator($utilities);
