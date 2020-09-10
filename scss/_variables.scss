@@ -9,14 +9,14 @@ $color_dark:    #333333 !default;
 $color_grey:    #EEEEEE !default;
 
 $theme_colors: (
-  color_primary: $color_primary,
-  color_success: $color_success,
-  color_warning: $color_warning,
-  color_error:   $color_error,
-  color_info:    $color_info,
-  color_light:   $color_light,
-  color_dark:    $color_dark,
-  color_grey:    $color_grey,
+  primary: $color_primary,
+  success: $color_success,
+  warning: $color_warning,
+  error:   $color_error,
+  info:    $color_info,
+  light:   $color_light,
+  dark:    $color_dark,
+  grey:    $color_grey,
 ) !default;
 
 // breakpoints
@@ -57,23 +57,24 @@ $padding_responsive:         true !default;
 $margin_responsive:          true !default;
 $overflow_responsive:        false !default;
 $border_width_responsive:    false !default;
+$border_color_responsive:    false !default;
 
 // padding
-$padding_min:        0;
-$padding_max:        5;
-$padding_multiple:   4px;
+$padding_min:        0 !default;
+$padding_max:        5 !default;
+$padding_multiple:   4px !default;
 
 // margin
-$margin_min: 0;
-$margin_max: 5;
-$margin_multiple: 4px;
+$margin_min: 0 !default;
+$margin_max: 5 !default;
+$margin_multiple: 4px !default;
 
 // debugger
 $debugger_color:      $color_light !default;
 $debugger_background: $color_primary !default;
 
 // z_indexs
-$debugger_z_index: 100;
+$debugger_z_index: 100 !default;
 
 // border
 $borders_width: (
@@ -85,5 +86,5 @@ $borders_width: (
   5: 5px,
 ) !default;
 
-$border_width: 1px;
-$border_color: $color_primary;
+$border_width: 1px !default;
+$border_color: $color_primary !default;

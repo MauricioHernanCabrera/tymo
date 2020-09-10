@@ -25,26 +25,28 @@
 @import "utilities/float";
 @import "utilities/overflow";
 @import "utilities/border_width";
+@import "utilities/border_color";
 
 // utilities
 $utilities: 
-  (text_align, $text_align_responsive),
-  (text_weight, $text_weight_responsive),
-  (text_truncate, $text_truncate_responsive),
-  (white_space, $white_space_responsive),
-  (text_decoration, $text_decoration_responsive),
-  (text_style, $text_style_responsive),
-  (text_transform, $text_transform_responsive),
-  (break_word, $break_word_responsive),
-  (vertical_align, $vertical_align_responsive),
-  (padding, $padding_responsive),
-  (margin, $margin_responsive),
-  (visibility, $visibility_responsive),
-  (display, $display_responsive),
-  (position, $position_responsive),
-  (float, $float_responsive),
-  (overflow, $overflow_responsive),
-  (border_width, $border_width_responsive),
+  // (text_align, $text_align_responsive),
+  // (text_weight, $text_weight_responsive),
+  // (text_truncate, $text_truncate_responsive),
+  // (white_space, $white_space_responsive),
+  // (text_decoration, $text_decoration_responsive),
+  // (text_style, $text_style_responsive),
+  // (text_transform, $text_transform_responsive),
+  // (break_word, $break_word_responsive),
+  // (vertical_align, $vertical_align_responsive),
+  // (padding, $padding_responsive),
+  // (margin, $margin_responsive),
+  // (visibility, $visibility_responsive),
+  // (display, $display_responsive),
+  // (position, $position_responsive),
+  // (float, $float_responsive),
+  // (overflow, $overflow_responsive),
+  // (border_width, $border_width_responsive),
+  (border_color, $border_color_responsive),
 ;
 
 @include utilities_generator($utilities);
