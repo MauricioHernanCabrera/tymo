@@ -1,0 +1,7 @@
+@mixin width($variant: "") {
+  $base_class_name: w#{$variant};
+  
+  @each $key, $value in $widths {
+    .#{$base_class_name}_#{$key} { width: $value !important; }
+  }
+}

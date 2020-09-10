@@ -880,6 +880,21 @@
 .aspect_ratio--1by1::before {
   padding-top: 100%; }
 
+.w_25 {
+  width: 25% !important; }
+
+.w_50 {
+  width: 50% !important; }
+
+.w_75 {
+  width: 75% !important; }
+
+.w_100 {
+  width: 100% !important; }
+
+.w_auto {
+  width: auto !important; }
+
 @media screen and (min-width: 576px) {
   .text_align_sm_right {
     text-align: right !important; }

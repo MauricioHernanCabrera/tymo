@@ -24,4 +24,5 @@
   @if $name == user_select      { @include user_select($params); }
   @if $name == list             { @include list($params); }
   @if $name == aspect_ratio     { @include aspect_ratio($params); }
+  @if $name == width            { @include width($params); }
 }

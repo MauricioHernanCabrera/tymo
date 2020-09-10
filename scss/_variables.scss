@@ -63,6 +63,7 @@ $font_family_responsive:      false !default;
 $user_select_responsive:      false !default;
 $list_responsive:             false !default;
 $aspect_ratio_responsive:     true !default;
+$width_responsive:            false !default;
 
 // padding
 $padding_min:        0 !default;
@@ -117,3 +118,12 @@ $aspect_ratios: ((21, 9), (16, 9), (4, 3), (1, 1)) !default;
 
 // container
 $container_default: xl !default;
+
+// width
+$widths: (
+  25:   25%,
+  50:   50%,
+  75:   75%,
+  100:  100%,
+  auto: auto
+) !default;
