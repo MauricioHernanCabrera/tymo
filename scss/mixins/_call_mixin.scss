@@ -28,4 +28,5 @@
   @if $name == max_width        { @include max_width($params); }
   @if $name == height           { @include height($params); }
   @if $name == max_height       { @include max_height($params); }
+  @if $name == inset            { @include inset($params); }
 }

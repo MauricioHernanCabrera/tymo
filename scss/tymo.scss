@@ -38,6 +38,7 @@
 @import "utilities/max_width";
 @import "utilities/height";
 @import "utilities/max_height";
+@import "utilities/inset";
 
 // utilities
 $utilities: 
@@ -70,6 +71,7 @@ $utilities:
   (max_width, $max_width_responsive),
   (height, $height_responsive),
   (max_height, $max_height_responsive),
+  (inset, $inset_responsive),
 ;
 
 @include utilities_generator($utilities);

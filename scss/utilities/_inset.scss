@@ -1,0 +1,11 @@
+@mixin inset($variant: "") {
+  .inset#{$variant}_0 { top: 0 !important; bottom: 0 !important; left: 0 !important; right: 0 !important; }
+  
+  .inset#{$variant}_y_0 { top: 0 !important; bottom: 0 !important; }
+  .inset#{$variant}_x_0 { left: 0 !important; right: 0 !important; }
+  
+  .top#{$variant}_0    { top: 0 !important; }
+  .bottom#{$variant}_0 { bottom: 0 !important; }
+  .left#{$variant}_0   { left: 0 !important; }
+  .right#{$variant}_0  { right: 0 !important; }
+}

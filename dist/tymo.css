@@ -916,6 +916,32 @@
 .mh_100 {
   max-height: 100% !important; }
 
+.inset_0 {
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important; }
+
+.inset_y_0 {
+  top: 0 !important;
+  bottom: 0 !important; }
+
+.inset_x_0 {
+  left: 0 !important;
+  right: 0 !important; }
+
+.top_0 {
+  top: 0 !important; }
+
+.bottom_0 {
+  bottom: 0 !important; }
+
+.left_0 {
+  left: 0 !important; }
+
+.right_0 {
+  right: 0 !important; }
+
 @media screen and (min-width: 576px) {
   .text_align_sm_right {
     text-align: right !important; }
