@@ -2,7 +2,7 @@
   $base_class_name: overflow#{$variant};
   
   @each $value in (visible, hidden, scroll, auto) {
-    .#{$base_class_name}_#{$value} { overflow: $value !important }
+    .#{$base_class_name}_#{$value}   { overflow: $value !important }
     .#{$base_class_name}_x_#{$value} { overflow-x: $value !important }
     .#{$base_class_name}_y_#{$value} { overflow-y: $value !important }
   }

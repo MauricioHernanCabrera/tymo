@@ -56,6 +56,7 @@ $float_responsive:           false !default;
 $padding_responsive:         true !default;
 $margin_responsive:          true !default;
 $overflow_responsive:        false !default;
+$border_width_responsive:    false !default;
 
 // padding
 $padding_min:        0;
@@ -73,3 +74,16 @@ $debugger_background: #1867C0 !default;
 
 // z_indexs
 $debugger_z_index: 100;
+
+// border
+$borders_width: (
+  0: 0,
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+  5: 5px,
+) !default;
+
+$border_width: 1px;
+$border_color: $color_primary;

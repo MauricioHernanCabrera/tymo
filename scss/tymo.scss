@@ -24,6 +24,7 @@
 @import "utilities/debugger";
 @import "utilities/float";
 @import "utilities/overflow";
+@import "utilities/border_width";
 
 // utilities
 $utilities: 
@@ -43,6 +44,7 @@ $utilities:
   (position, $position_responsive),
   (float, $float_responsive),
   (overflow, $overflow_responsive),
+  (border_width, $border_width_responsive),
 ;
 
 @include utilities_generator($utilities);
