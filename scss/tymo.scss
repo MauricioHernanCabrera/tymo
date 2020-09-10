@@ -4,23 +4,23 @@
 @import "mixins/breakpoint";
 @import "mixins/call_mixin";
 @import "mixins/utilities_generator";
-
-// mixins_utils
-@import "mixins/break_word";
-@import "mixins/text_align";
-@import "mixins/text_decoration";
-@import "mixins/text_style";
-@import "mixins/text_transform";
-@import "mixins/text_truncate";
-@import "mixins/text_weight";
-@import "mixins/white_space";
-@import "mixins/vertical_align";
 @import "mixins/size";
-@import "mixins/padding";
-@import "mixins/margin";
-@import "mixins/visibility";
-@import "mixins/display";
-@import "mixins/position";
+
+// utilities
+@import "utilities/break_word";
+@import "utilities/text_align";
+@import "utilities/text_decoration";
+@import "utilities/text_style";
+@import "utilities/text_transform";
+@import "utilities/text_truncate";
+@import "utilities/text_weight";
+@import "utilities/white_space";
+@import "utilities/vertical_align";
+@import "utilities/padding";
+@import "utilities/margin";
+@import "utilities/visibility";
+@import "utilities/display";
+@import "utilities/position";
 @import "utilities/debugger";
 
 // utilities
