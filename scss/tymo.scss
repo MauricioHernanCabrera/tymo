@@ -23,6 +23,7 @@
 @import "utilities/position";
 @import "utilities/debugger";
 @import "utilities/float";
+@import "utilities/overflow";
 
 // utilities
 $utilities: 
@@ -41,6 +42,7 @@ $utilities:
   (display, $display_responsive),
   (position, $position_responsive),
   (float, $float_responsive),
+  (overflow, $overflow_responsive),
 ;
 
 @include utilities_generator($utilities);

@@ -14,4 +14,5 @@
   @if $name == display         { @include display($params) }
   @if $name == position        { @include position($params) }
   @if $name == float           { @include float($params) }
+  @if $name == overflow        { @include overflow($params) }
 }
