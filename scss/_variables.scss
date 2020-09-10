@@ -1,3 +1,24 @@
+// colors
+$color_primary: #1867C0 !default;
+$color_success: #4CAF50 !default;
+$color_warning: #FB8C00 !default;
+$color_error:   #FF5252 !default;
+$color_info:    #5CBBF6 !default;
+$color_light:   #ffffff !default;
+$color_dark:    #333333 !default;
+$color_grey:    #EEEEEE !default;
+
+$theme_colors: (
+  color_primary: $color_primary,
+  color_success: $color_success,
+  color_warning: $color_warning,
+  color_error:   $color_error,
+  color_info:    $color_info,
+  color_light:   $color_light,
+  color_dark:    $color_dark,
+  color_grey:    $color_grey,
+) !default;
+
 // breakpoints
 $breakpoints: (
   xs:  0,
