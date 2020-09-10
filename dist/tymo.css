@@ -1,3 +1,19 @@
+.position_static {
+  position: static !important; }
+
+.position_relative {
+  position: relative !important; }
+
+.position_absolute {
+  position: absolute !important; }
+
+.position_fixed {
+  position: fixed !important; }
+
+.position_sticky {
+  position: sticky !important;
+  position: -webkit-sticky !important; }
+
 .visibility_visible {
   visibility: visible !important; }
 

@@ -19,6 +19,7 @@
 @import "mixins/margin";
 @import "mixins/visibility";
 @import "mixins/display";
+@import "mixins/position";
 
 // utilities
 $utilities: 
@@ -35,6 +36,7 @@ $utilities:
   (margin, $margin_responsive),
   (visibility, $visibility_responsive),
   (display, $display_responsive),
+  (position, $position_responsive),
 ;
 
 @include utilities_generator($utilities);
