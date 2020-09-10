@@ -30,6 +30,7 @@
 @import "utilities/color";
 @import "utilities/background_color";
 @import "utilities/font_family";
+@import "utilities/user_select";
 
 // utilities
 $utilities: 
@@ -55,6 +56,7 @@ $utilities:
   (color, $color_responsive),
   (background_color, $background_color_responsive),
   (font_family, $font_family_responsive),
+  (user_select, $user_select_responsive),
 ;
 
 @include utilities_generator($utilities);

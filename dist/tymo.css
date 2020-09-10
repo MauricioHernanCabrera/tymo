@@ -809,6 +809,15 @@
 .font_1 {
   font-family: "Roboto", sans-serif !important; }
 
+.user_select_all {
+  user-select: all !important; }
+
+.user_select_auto {
+  user-select: auto !important; }
+
+.user_select_none {
+  user-select: none !important; }
+
 @media screen and (min-width: 576px) {
   .text_align_sm_right {
     text-align: right !important; }

@@ -21,4 +21,5 @@
   @if $name == color            { @include color($params); }
   @if $name == background_color { @include background_color($params); }
   @if $name == font_family      { @include font_family($params); }
+  @if $name == user_select      { @include user_select($params); }
 }
