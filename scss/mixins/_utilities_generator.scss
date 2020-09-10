@@ -1,16 +1,13 @@
 @mixin utilities_generator($array) {
   $list_responsive: ();
-  $list_no_responsive: ();
   
   @each $name, $responsive in $array {
     @if $responsive {
-      $list_responsive: join(($name, $responsive), $list_responsive)
-    } @else {
-      $list_no_responsive: join(($name, $responsive), $list_no_responsive)
+      $list_responsive: append($list_responsive, ($name, $responsive))
     }
   }
 
-  @each $name, $responsive in $list_no_responsive {
+  @each $name, $responsive in $array {
     @include call_mixin($name);
   }
 
