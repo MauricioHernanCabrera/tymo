@@ -1,31 +1,11 @@
 @mixin vertical_align($variant: "") {
   $base_class_name: vertical_align#{$variant};
 
-  .#{$base_class_name}_baseline {
-    vertical-align: baseline !important;
-  }
-
-  .#{$base_class_name}_top {
-    vertical-align: top !important;
-  }
-
-  .#{$base_class_name}_middle {
-    vertical-align: middle !important;
-  }
-
-  .#{$base_class_name}_bottom {
-    vertical-align: bottom !important;
-  }
-
-  .#{$base_class_name}_text_bottom {
-    vertical-align: text-bottom !important;
-  }
-
-  .#{$base_class_name}_text_top {
-    vertical-align: text-top !important;
-  }
-
-  .#{$base_class_name}_baseline {
-    vertical-align: baseline !important;
-  }
+  .#{$base_class_name}_baseline    { vertical-align: baseline !important }
+  .#{$base_class_name}_top         { vertical-align: top !important }
+  .#{$base_class_name}_middle      { vertical-align: middle !important }
+  .#{$base_class_name}_bottom      { vertical-align: bottom !important }
+  .#{$base_class_name}_text_bottom { vertical-align: text-bottom !important }
+  .#{$base_class_name}_text_top    { vertical-align: text-top !important }
+  .#{$base_class_name}_baseline    { vertical-align: baseline !important }
 }

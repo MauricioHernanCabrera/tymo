@@ -1,11 +1,6 @@
 @mixin visibility($variant: "") {
   $base_class_name: visibility#{$variant};
 
-  .#{$base_class_name}_visible {
-    visibility: visible !important;
-  }
-
-  .#{$base_class_name}_hidden {
-    visibility: hidden !important;
-  }
+  .#{$base_class_name}_visible { visibility: visible !important }
+  .#{$base_class_name}_hidden  { visibility: hidden !important }
 }
