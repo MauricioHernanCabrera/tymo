@@ -1,12 +1,6 @@
 @mixin padding($variant: "") {
   @for $i from $padding_min through $padding_max {
     $result: $i * $padding_multiple;
-    .pl#{$variant}_#{$i} { padding-left: $result !important }
-    .pr#{$variant}_#{$i} { padding-right: $result !important }
-    .pt#{$variant}_#{$i} { padding-top: $result !important }
-    .pb#{$variant}_#{$i} { padding-bottom: $result !important }
-    .py#{$variant}_#{$i} { padding-top: $result !important; padding-bottom: $result !important }
-    .px#{$variant}_#{$i} { padding-left: $result !important; padding-right: $result !important }
-    .pa#{$variant}_#{$i} { padding: $result !important }
+    @include size(p, padding, $variant, $i, $result);
   }
 }

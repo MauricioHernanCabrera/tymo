@@ -1,6 +1,5 @@
 // breakpoints
-$breakpoints: (
-  xs: 0,
+$breakpoints: (xs: 0,
   sm: 576px,
   md: 768px,
   lg: 992px,
@@ -9,8 +8,7 @@ $breakpoints: (
 ) !default;
 
 // responsive_variants
-$responsive_variants: (
-  "": "",
+$responsive_variants: ("": "",
   sm: "_sm",
   md: "_md",
   lg: "_lg",
