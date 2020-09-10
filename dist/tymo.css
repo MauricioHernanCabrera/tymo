@@ -1,3 +1,31 @@
+.debugger:before {
+  position: fixed;
+  color: #ffffff;
+  background-color: #1867C0;
+  z-index: 100;
+  left: 0;
+  bottom: 0;
+  padding: 12px 24px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  content: "base"; }
+  @media screen and (min-width: 576px) {
+    .debugger:before {
+      content: "sm"; } }
+  @media screen and (min-width: 768px) {
+    .debugger:before {
+      content: "md"; } }
+  @media screen and (min-width: 992px) {
+    .debugger:before {
+      content: "lg"; } }
+  @media screen and (min-width: 1200px) {
+    .debugger:before {
+      content: "xl"; } }
+  @media screen and (min-width: 1400px) {
+    .debugger:before {
+      content: "xxl"; } }
+
 .position_static {
   position: static !important; }
 

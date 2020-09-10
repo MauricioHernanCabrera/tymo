@@ -1,0 +1,24 @@
+.debugger {
+  &:before {
+    position: fixed;
+    color: $debugger_color;
+    background-color: $debugger_background;
+    z-index: $debugger_z_index;
+    left: 0;
+    bottom: 0;
+    padding: 12px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    @each $key, $value in $responsive_variants {
+      @if $key == "" {
+        content: "base";
+      } @else {
+        @include breakpoint($key) {
+          content: "#{$key}";
+        }
+      }
+    }
+  }
+}
