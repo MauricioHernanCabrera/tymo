@@ -69,8 +69,8 @@ $margin_max: 5;
 $margin_multiple: 4px;
 
 // debugger
-$debugger_color:      #ffffff !default;
-$debugger_background: #1867C0 !default;
+$debugger_color:      $color_light !default;
+$debugger_background: $color_primary !default;
 
 // z_indexs
 $debugger_z_index: 100;

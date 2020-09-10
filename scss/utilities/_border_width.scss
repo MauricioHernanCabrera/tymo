@@ -1,5 +1,4 @@
 @mixin border_width($variant: "") {
-  // width
   $base_class_name: border#{$variant};
   .#{$base_class_name} { border: $border_width solid $border_color !important }
   
@@ -10,7 +9,4 @@
     .#{$base_class_name}_left_#{$key}   { border-left-width: $value !important }
     .#{$base_class_name}_right_#{$key}  { border-right-width: $value !important }
   }
-
-  // color
-  
 }
