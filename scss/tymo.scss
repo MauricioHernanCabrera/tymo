@@ -16,6 +16,7 @@
 @import "mixins/white_space";
 @import "mixins/vertical_align";
 @import "mixins/padding";
+@import "mixins/margin";
 
 // utilities
 $utilities: 
@@ -29,6 +30,7 @@ $utilities:
   (break_word, $break_word_responsive),
   (vertical_align, $vertical_align_responsive),
   (padding, $padding_responsive),
+  (margin, $margin_responsive),
 ;
 
 @include utilities_generator($utilities);

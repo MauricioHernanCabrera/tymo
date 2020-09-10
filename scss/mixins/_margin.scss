@@ -1,0 +1,12 @@
+@mixin margin($variant: "") {
+  @for $i from $margin_min through $margin_max {
+    $result: $i * $margin_multiple;
+    .ml#{$variant}_#{$i} { margin-left: $result !important }
+    .mr#{$variant}_#{$i} { margin-right: $result !important }
+    .mt#{$variant}_#{$i} { margin-top: $result !important }
+    .mb#{$variant}_#{$i} { margin-bottom: $result !important }
+    .my#{$variant}_#{$i} { margin-top: $result !important; margin-bottom: $result !important }
+    .mx#{$variant}_#{$i} { margin-left: $result !important; margin-right: $result !important }
+    .ma#{$variant}_#{$i} { margin: $result !important }
+  }
+}

@@ -9,4 +9,5 @@
   @if $name == break_word      { @include break_word($params) }
   @if $name == vertical_align  { @include vertical_align($params) }
   @if $name == padding         { @include padding($params) }
+  @if $name == margin          { @include margin($params) }
 }
