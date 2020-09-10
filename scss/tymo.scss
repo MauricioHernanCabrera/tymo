@@ -10,10 +10,10 @@
 @import "utilities/break_word";
 @import "utilities/text_align";
 @import "utilities/text_decoration";
-@import "utilities/text_style";
+@import "utilities/font_style";
 @import "utilities/text_transform";
 @import "utilities/text_truncate";
-@import "utilities/text_weight";
+@import "utilities/font_weight";
 @import "utilities/white_space";
 @import "utilities/vertical_align";
 @import "utilities/padding";
@@ -31,11 +31,11 @@
 // utilities
 $utilities: 
   (text_align, $text_align_responsive),
-  (text_weight, $text_weight_responsive),
+  (font_weight, $font_weight_responsive),
   (text_truncate, $text_truncate_responsive),
   (white_space, $white_space_responsive),
   (text_decoration, $text_decoration_responsive),
-  (text_style, $text_style_responsive),
+  (font_style, $font_style_responsive),
   (text_transform, $text_transform_responsive),
   (break_word, $break_word_responsive),
   (vertical_align, $vertical_align_responsive),

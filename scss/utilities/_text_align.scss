@@ -1,7 +1,7 @@
 @mixin text_align($variant: "") {
   $base_class_name: text_align#{$variant};
   
-  .#{$base_class_name}_right  { text-align: right !important }
-  .#{$base_class_name}_left   { text-align: left !important }
-  .#{$base_class_name}_center { text-align: center !important }
+  .#{$base_class_name}_right  { text-align: right !important; }
+  .#{$base_class_name}_left   { text-align: left !important; }
+  .#{$base_class_name}_center { text-align: center !important; }
 }

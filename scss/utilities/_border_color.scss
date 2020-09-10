@@ -2,6 +2,6 @@
   $base_class_name: border#{$variant};
   
   @each $key, $value in $theme_colors {
-    .#{$base_class_name}_#{$key} { border-color: $value !important }
+    .#{$base_class_name}_#{$key} { border-color: $value !important; }
   }
 }

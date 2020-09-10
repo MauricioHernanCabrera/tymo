@@ -1,9 +1,9 @@
 @mixin size($shortcut, $property, $variant, $index, $result) {
-  .#{$shortcut}a#{$variant}_#{$index} { #{$property}: $result !important }
-  .#{$shortcut}x#{$variant}_#{$index} { #{$property}-left: $result !important; #{$property}-right: $result !important }
-  .#{$shortcut}y#{$variant}_#{$index} { #{$property}-top: $result !important; #{$property}-bottom: $result !important }
-  .#{$shortcut}l#{$variant}_#{$index} { #{$property}-left: $result !important }
-  .#{$shortcut}r#{$variant}_#{$index} { #{$property}-right: $result !important }
-  .#{$shortcut}t#{$variant}_#{$index} { #{$property}-top: $result !important }
-  .#{$shortcut}b#{$variant}_#{$index} { #{$property}-bottom: $result !important }
+  .#{$shortcut}a#{$variant}_#{$index} { #{$property}: $result !important; }
+  .#{$shortcut}x#{$variant}_#{$index} { #{$property}-left: $result !important; #{$property}-right: $result !important; }
+  .#{$shortcut}y#{$variant}_#{$index} { #{$property}-top: $result !important; #{$property}-bottom: $result !important; }
+  .#{$shortcut}l#{$variant}_#{$index} { #{$property}-left: $result !important; }
+  .#{$shortcut}r#{$variant}_#{$index} { #{$property}-right: $result !important; }
+  .#{$shortcut}t#{$variant}_#{$index} { #{$property}-top: $result !important; }
+  .#{$shortcut}b#{$variant}_#{$index} { #{$property}-bottom: $result !important; }
 }

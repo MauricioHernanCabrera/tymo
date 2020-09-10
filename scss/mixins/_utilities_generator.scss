@@ -3,7 +3,7 @@
   
   @each $name, $responsive in $array {
     @if $responsive {
-      $list_responsive: append($list_responsive, ($name, $responsive))
+      $list_responsive: append($list_responsive, ($name, $responsive));
     }
   }
 
