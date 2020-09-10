@@ -10,4 +10,6 @@
   @if $name == vertical_align  { @include vertical_align($params) }
   @if $name == padding         { @include padding($params) }
   @if $name == margin          { @include margin($params) }
+  @if $name == visibility      { @include visibility($params) }
+  @if $name == display         { @include display($params) }
 }

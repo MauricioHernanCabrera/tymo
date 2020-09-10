@@ -17,6 +17,8 @@
 @import "mixins/vertical_align";
 @import "mixins/padding";
 @import "mixins/margin";
+@import "mixins/visibility";
+@import "mixins/display";
 
 // utilities
 $utilities: 
@@ -31,6 +33,8 @@ $utilities:
   (vertical_align, $vertical_align_responsive),
   (padding, $padding_responsive),
   (margin, $margin_responsive),
+  (visibility, $visibility_responsive),
+  (display, $display_responsive),
 ;
 
 @include utilities_generator($utilities);

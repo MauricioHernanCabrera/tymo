@@ -1,0 +1,12 @@
+@mixin display($variant: "") {
+  $base_class_name: display#{$variant};
+  
+  .#{$base_class_name}_none         { display: none !important }
+  .#{$base_class_name}_inline       { display: inline !important }
+  .#{$base_class_name}_inline_block { display: inline-block !important }
+  .#{$base_class_name}_block        { display: block !important }
+  .#{$base_class_name}_table        { display: table !important }
+  .#{$base_class_name}_table_row    { display: table-row !important }
+  .#{$base_class_name}_table_cell   { display: table-cell !important }
+  .#{$base_class_name}_inline_flex  { display: inline-flex !important }
+}
