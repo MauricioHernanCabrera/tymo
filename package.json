@@ -1,6 +1,6 @@
 {
   "name": "tymo-utils",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "You do not need more utils than these",
   "main": "scss/tymo.scss",
   "scripts": {
