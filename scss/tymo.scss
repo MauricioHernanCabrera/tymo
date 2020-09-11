@@ -49,6 +49,7 @@
 @import "utilities/align_content";
 @import "utilities/align_self";
 @import "utilities/order";
+@import "utilities/flex_grow";
 
 // utilities
 $utilities: 
@@ -92,6 +93,7 @@ $utilities:
   (align_content, $align_content_responsive),
   (align_self, $align_self_responsive),
   (order, $order_responsive),
+  (flex_grow, $flex_grow_responsive),
 ;
 
 @include utilities_generator($utilities);

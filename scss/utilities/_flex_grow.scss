@@ -1,0 +1,5 @@
+@mixin flex_grow($variant: "") {
+  @each $key, $value in $flex_grow {
+    .flex_grow_#{$key} { flex-grow: 0 !important; }
+  }
+}
