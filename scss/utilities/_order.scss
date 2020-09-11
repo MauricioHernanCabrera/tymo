@@ -1,0 +1,5 @@
+@mixin order($variant: "") {
+  @each $key, $value in $orders {
+    .order#{$variant}_#{$key} { order: $value !important; }
+  }
+}
