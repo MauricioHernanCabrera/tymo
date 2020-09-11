@@ -37,4 +37,5 @@
   @if $name == justify_content  { @include justify_content($params); }
   @if $name == align_items      { @include align_items($params); }
   @if $name == align_content    { @include align_content($params); }
+  @if $name == align_self       { @include align_self($params); }
 }

@@ -47,6 +47,7 @@
 @import "utilities/justify_content";
 @import "utilities/align_items";
 @import "utilities/align_content";
+@import "utilities/align_self";
 
 // utilities
 $utilities: 
@@ -88,6 +89,7 @@ $utilities:
   (justify_content, $justify_content_responsive),
   (align_items, $align_items_responsive),
   (align_content, $align_content_responsive),
+  (align_self, $align_self_responsive),
 ;
 
 @include utilities_generator($utilities);
