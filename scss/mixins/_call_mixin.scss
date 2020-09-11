@@ -35,4 +35,5 @@
   @if $name == opacity          { @include opacity($params); }
   @if $name == flex_wrap        { @include flex_wrap($params); }
   @if $name == justify_content  { @include justify_content($params); }
+  @if $name == align_items      { @include align_items($params); }
 }
