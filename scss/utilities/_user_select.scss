@@ -1,7 +1,12 @@
 @mixin user_select($variant: "") {
   $base_class_name: user_select#{$variant};
 
-  .#{$base_class_name}_all  { user-select: all !important; }
-  .#{$base_class_name}_auto { user-select: auto !important; }
-  .#{$base_class_name}_none { user-select: none !important; }
+  @each $item in (all, auto, none) {
+    .#{$base_class_name}_#{$item}  { 
+      -webkit-user-select: $item !important;
+      -moz-user-select: $item !important;
+      -ms-user-select: $item !important;
+      user-select: $item !important;
+    }
+  }
 }
