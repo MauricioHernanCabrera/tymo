@@ -26,7 +26,7 @@
 @import "utilities/overflow";
 @import "utilities/border_width";
 @import "utilities/border_color";
-@import "utilities/flex";
+@import "utilities/flex_direction";
 @import "utilities/color";
 @import "utilities/background_color";
 @import "utilities/font_family";
@@ -64,7 +64,7 @@ $utilities:
   (overflow, $overflow_responsive),
   (border_width, $border_width_responsive),
   (border_color, $border_color_responsive),
-  (flex, $flex_responsive),
+  (flex_direction, $flex_direction_responsive),
   (color, $color_responsive),
   (background_color, $background_color_responsive),
   (font_family, $font_family_responsive),

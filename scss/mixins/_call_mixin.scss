@@ -17,7 +17,7 @@
   @if $name == overflow         { @include overflow($params); }
   @if $name == border_width     { @include border_width($params); }
   @if $name == border_color     { @include border_color($params); }
-  @if $name == flex             { @include flex($params); }
+  @if $name == flex_direction   { @include flex_direction($params); }
   @if $name == color            { @include color($params); }
   @if $name == background_color { @include background_color($params); }
   @if $name == font_family      { @include font_family($params); }
