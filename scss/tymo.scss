@@ -51,6 +51,7 @@
 @import "utilities/order";
 @import "utilities/flex_grow";
 @import "utilities/flex_shrink";
+@import "utilities/rounded";
 
 // utilities
 $utilities: 
@@ -96,6 +97,7 @@ $utilities:
   (order, $order_responsive),
   (flex_grow, $flex_grow_responsive),
   (flex_shrink, $flex_shrink_responsive),
+  (rounded, $rounded_responsive),
 ;
 
 @include utilities_generator($utilities);

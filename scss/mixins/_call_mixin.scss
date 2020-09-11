@@ -41,4 +41,5 @@
   @if $name == order            { @include order($params); }
   @if $name == flex_grow        { @include flex_grow($params); }
   @if $name == flex_shrink      { @include flex_shrink($params); }
+  @if $name == rounded          { @include rounded($params); }
 }
