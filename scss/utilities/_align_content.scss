@@ -1,0 +1,8 @@
+@mixin align_content($variant: "") {
+  .align_content#{$variant}_start   { align-content: flex-start !important; }
+  .align_content#{$variant}_end     { align-content: flex-end !important; }
+  .align_content#{$variant}_center  { align-content: center !important; }
+  .align_content#{$variant}_between { align-content: space-between !important; }
+  .align_content#{$variant}_around  { align-content: space-around !important; }
+  .align_content#{$variant}_stretch { align-content: stretch !important; }
+}

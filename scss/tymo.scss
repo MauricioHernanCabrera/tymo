@@ -46,6 +46,7 @@
 @import "utilities/flex_wrap";
 @import "utilities/justify_content";
 @import "utilities/align_items";
+@import "utilities/align_content";
 
 // utilities
 $utilities: 
@@ -86,6 +87,7 @@ $utilities:
   (flex_wrap, $flex_wrap_responsive),
   (justify_content, $justify_content_responsive),
   (align_items, $align_items_responsive),
+  (align_content, $align_content_responsive),
 ;
 
 @include utilities_generator($utilities);

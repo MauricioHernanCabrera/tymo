@@ -36,4 +36,5 @@
   @if $name == flex_wrap        { @include flex_wrap($params); }
   @if $name == justify_content  { @include justify_content($params); }
   @if $name == align_items      { @include align_items($params); }
+  @if $name == align_content    { @include align_content($params); }
 }
