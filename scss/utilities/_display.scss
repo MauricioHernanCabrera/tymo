@@ -1,5 +1,5 @@
 @mixin display($variant: "") {
-  $base_class_name: display#{$variant};
+  $base_class_name: d#{$variant};
   
   .#{$base_class_name}_none         { display: none !important; }
   .#{$base_class_name}_inline       { display: inline !important; }
