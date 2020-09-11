@@ -1,0 +1,5 @@
+@mixin rounded($variant: "") {
+  @each $key, $value in $rounded {
+    .rounded#{$variant}_#{$key} { border-radius: $value !important; }
+  }
+}

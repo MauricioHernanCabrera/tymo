@@ -26,7 +26,7 @@
 @import "utilities/overflow";
 @import "utilities/border_width";
 @import "utilities/border_color";
-@import "utilities/flex";
+@import "utilities/flex_direction";
 @import "utilities/color";
 @import "utilities/background_color";
 @import "utilities/font_family";
@@ -43,6 +43,15 @@
 @import "utilities/object_position";
 @import "utilities/object_fit";
 @import "utilities/opacity";
+@import "utilities/flex_wrap";
+@import "utilities/justify_content";
+@import "utilities/align_items";
+@import "utilities/align_content";
+@import "utilities/align_self";
+@import "utilities/order";
+@import "utilities/flex_grow";
+@import "utilities/flex_shrink";
+@import "utilities/rounded";
 
 // utilities
 $utilities: 
@@ -64,7 +73,7 @@ $utilities:
   (overflow, $overflow_responsive),
   (border_width, $border_width_responsive),
   (border_color, $border_color_responsive),
-  (flex, $flex_responsive),
+  (flex_direction, $flex_direction_responsive),
   (color, $color_responsive),
   (background_color, $background_color_responsive),
   (font_family, $font_family_responsive),
@@ -80,6 +89,15 @@ $utilities:
   (object_position, $object_position_responsive),
   (object_fit, $object_fit_responsive),
   (opacity, $opacity_responsive),
+  (flex_wrap, $flex_wrap_responsive),
+  (justify_content, $justify_content_responsive),
+  (align_items, $align_items_responsive),
+  (align_content, $align_content_responsive),
+  (align_self, $align_self_responsive),
+  (order, $order_responsive),
+  (flex_grow, $flex_grow_responsive),
+  (flex_shrink, $flex_shrink_responsive),
+  (rounded, $rounded_responsive),
 ;
 
 @include utilities_generator($utilities);

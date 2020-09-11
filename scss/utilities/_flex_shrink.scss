@@ -1,0 +1,5 @@
+@mixin flex_shrink($variant: "") {
+  @each $key, $value in $flex_shrink {
+    .flex_shrink_#{$key} { flex-shrink: $value !important; }
+  }
+}
