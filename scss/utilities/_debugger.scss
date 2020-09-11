@@ -10,14 +10,11 @@
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
+    content: "base";
 
     @each $key, $value in $responsive_variants {
-      @if $key == "" {
-        content: "base";
-      } @else {
-        @include breakpoint($key) {
-          content: "#{$key}";
-        }
+      @include breakpoint($key) {
+        content: "#{$key}";
       }
     }
   }
