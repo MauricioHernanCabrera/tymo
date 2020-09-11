@@ -34,4 +34,5 @@
   @if $name == object_fit       { @include object_fit($params); }
   @if $name == opacity          { @include opacity($params); }
   @if $name == flex_wrap        { @include flex_wrap($params); }
+  @if $name == justify_content  { @include justify_content($params); }
 }

@@ -73,15 +73,16 @@ $object_fit_responsive:       false !default;
 $opacity_responsive:          false !default;
 $flex_direction_responsive:   true !default;
 $flex_wrap_responsive:        true !default;
+$justify_content_responsive:  true !default;
 
 // padding
-$padding_min:        0 !default;
-$padding_max:        5 !default;
-$padding_multiple:   4px !default;
+$padding_min:      0 !default;
+$padding_max:      5 !default;
+$padding_multiple: 4px !default;
 
 // margin
-$margin_min: 0 !default;
-$margin_max: 5 !default;
+$margin_min:      0 !default;
+$margin_max:      5 !default;
 $margin_multiple: 4px !default;
 
 // debugger

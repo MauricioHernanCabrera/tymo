@@ -1,0 +1,7 @@
+@mixin justify_content($variant: "") {
+  .justify_content#{$variant}_start   { justify-content: flex-start !important; }
+  .justify_content#{$variant}_end     { justify-content: flex-end !important; }
+  .justify_content#{$variant}_center  { justify-content: center !important; }
+  .justify_content#{$variant}_between { justify-content: space-between !important; }
+  .justify_content#{$variant}_around  { justify-content: space-around !important; }
+}
