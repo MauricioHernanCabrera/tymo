@@ -1,0 +1,5 @@
+@mixin flex_wrap($variant: "") {
+  .flex#{$variant}_wrap         { flex-wrap: wrap !important; }
+  .flex#{$variant}_wrap_reverse { flex-wrap: wrap-reverse !important; }
+  .flex#{$variant}_nowrap       { flex-wrap: nowrap !important; }
+}

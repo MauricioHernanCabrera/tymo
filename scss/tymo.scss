@@ -43,6 +43,7 @@
 @import "utilities/object_position";
 @import "utilities/object_fit";
 @import "utilities/opacity";
+@import "utilities/flex_wrap";
 
 // utilities
 $utilities: 
@@ -80,6 +81,7 @@ $utilities:
   (object_position, $object_position_responsive),
   (object_fit, $object_fit_responsive),
   (opacity, $opacity_responsive),
+  (flex_wrap, $flex_wrap_responsive),
 ;
 
 @include utilities_generator($utilities);
