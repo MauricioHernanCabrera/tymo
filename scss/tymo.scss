@@ -50,6 +50,7 @@
 @import "utilities/align_self";
 @import "utilities/order";
 @import "utilities/flex_grow";
+@import "utilities/flex_shrink";
 
 // utilities
 $utilities: 
@@ -94,6 +95,7 @@ $utilities:
   (align_self, $align_self_responsive),
   (order, $order_responsive),
   (flex_grow, $flex_grow_responsive),
+  (flex_shrink, $flex_shrink_responsive),
 ;
 
 @include utilities_generator($utilities);
