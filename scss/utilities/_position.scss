@@ -1,9 +1,9 @@
 @mixin position($variant: "") {
   $base_class_name: position#{$variant};
   
-  .#{$base_class_name}_static   { position: static !important }
-  .#{$base_class_name}_relative { position: relative !important }
-  .#{$base_class_name}_absolute { position: absolute !important }
-  .#{$base_class_name}_fixed    { position: fixed !important }
-  .#{$base_class_name}_sticky   { position: sticky !important; position: -webkit-sticky !important }
+  .#{$base_class_name}_static   { position: static !important; }
+  .#{$base_class_name}_relative { position: relative !important; }
+  .#{$base_class_name}_absolute { position: absolute !important; }
+  .#{$base_class_name}_fixed    { position: fixed !important; }
+  .#{$base_class_name}_sticky   { position: sticky !important; position: -webkit-sticky !important; }
 }

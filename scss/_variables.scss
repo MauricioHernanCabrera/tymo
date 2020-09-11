@@ -21,7 +21,6 @@ $theme_colors: (
 
 // breakpoints
 $breakpoints: (
-  xs:  0,
   sm:  576px,
   md:  768px,
   lg:  992px,
@@ -31,7 +30,6 @@ $breakpoints: (
 
 // responsive_variants
 $responsive_variants: (
-  "":  "",
   sm:  "_sm",
   md:  "_md",
   lg:  "_lg",
@@ -40,24 +38,40 @@ $responsive_variants: (
 ) !default;
 
 // has_responsive
-$text_align_responsive:      true !default;
-$text_weight_responsive:     true !default;
-$text_truncate_responsive:   false !default;
-$white_space_responsive:     false !default;
-$text_decoration_responsive: true !default;
-$text_style_responsive:      true !default;
-$text_transform_responsive:  false !default;
-$break_word_responsive:      true !default;
-$vertical_align_responsive:  false !default;
-$visibility_responsive:      false !default;
-$display_responsive:         true !default;
-$position_responsive:        false !default;
-$float_responsive:           false !default;
-$padding_responsive:         true !default;
-$margin_responsive:          true !default;
-$overflow_responsive:        false !default;
-$border_width_responsive:    false !default;
-$border_color_responsive:    false !default;
+$text_align_responsive:       true !default;
+$font_weight_responsive:      true !default;
+$text_truncate_responsive:    false !default;
+$white_space_responsive:      false !default;
+$text_decoration_responsive:  true !default;
+$font_style_responsive:       true !default;
+$text_transform_responsive:   false !default;
+$break_word_responsive:       true !default;
+$vertical_align_responsive:   false !default;
+$visibility_responsive:       false !default;
+$display_responsive:          true !default;
+$position_responsive:         false !default;
+$float_responsive:            false !default;
+$padding_responsive:          true !default;
+$margin_responsive:           true !default;
+$overflow_responsive:         false !default;
+$border_width_responsive:     false !default;
+$border_color_responsive:     false !default;
+$flex_responsive:             true !default;
+$color_responsive:            false !default;
+$background_color_responsive: false !default;
+$font_family_responsive:      false !default;
+$user_select_responsive:      false !default;
+$list_responsive:             false !default;
+$aspect_ratio_responsive:     true !default;
+$width_responsive:            false !default;
+$max_width_responsive:        false !default;
+$height_responsive:           false !default;
+$max_height_responsive:       false !default;
+$inset_responsive:            false !default;
+$pointer_events_responsive:   false !default;
+$object_position_responsive:  false !default;
+$object_fit_responsive:       false !default;
+$opacity_responsive:          false !default;
 
 // padding
 $padding_min:        0 !default;
@@ -88,3 +102,59 @@ $borders_width: (
 
 $border_width: 1px !default;
 $border_color: $color_primary !default;
+
+// order values
+$orders: (
+  first: -1,
+  0:     0,
+  1:     1,
+  2:     2,
+  3:     3,
+  4:     4,
+  5:     5,
+  last:  6,
+  none:  inherit,
+) !default;
+
+// fonts
+$fonts: (
+  1: ('Roboto', sans-serif)
+) !default;
+
+// aspect ratio
+$aspect_ratios: (
+  (21, 9),
+  (16, 9),
+  (4, 3),
+  (1, 1)
+) !default;
+
+// container
+$container_default: xl !default;
+
+// width
+$widths: (
+  25:   25%,
+  50:   50%,
+  75:   75%,
+  100:  100%,
+  auto: auto
+) !default;
+
+// height
+$heights: (
+  25:   25%,
+  50:   50%,
+  75:   75%,
+  100:  100%,
+  auto: auto
+) !default;
+
+// opacity
+$opacities: (
+  0:   0,
+  25:  0.25,
+  50:  0.5,
+  75:  0.75,
+  100: 1,
+) !default;

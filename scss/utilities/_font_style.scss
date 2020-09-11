@@ -1,0 +1,7 @@
+@mixin font_style($variant: "") {
+  $base_class_name: font_style#{$variant};
+  
+  .#{$base_class_name}_italic  { font-style: italic !important; }
+  .#{$base_class_name}_normal  { font-style: normal !important; }
+  .#{$base_class_name}_oblique { font-style: oblique !important; }
+}

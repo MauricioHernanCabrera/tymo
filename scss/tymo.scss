@@ -10,10 +10,10 @@
 @import "utilities/break_word";
 @import "utilities/text_align";
 @import "utilities/text_decoration";
-@import "utilities/text_style";
+@import "utilities/font_style";
 @import "utilities/text_transform";
 @import "utilities/text_truncate";
-@import "utilities/text_weight";
+@import "utilities/font_weight";
 @import "utilities/white_space";
 @import "utilities/vertical_align";
 @import "utilities/padding";
@@ -26,27 +26,60 @@
 @import "utilities/overflow";
 @import "utilities/border_width";
 @import "utilities/border_color";
+@import "utilities/flex";
+@import "utilities/color";
+@import "utilities/background_color";
+@import "utilities/font_family";
+@import "utilities/user_select";
+@import "utilities/list";
+@import "utilities/aspect_ratio";
+@import "utilities/container";
+@import "utilities/width";
+@import "utilities/max_width";
+@import "utilities/height";
+@import "utilities/max_height";
+@import "utilities/inset";
+@import "utilities/pointer_events";
+@import "utilities/object_position";
+@import "utilities/object_fit";
+@import "utilities/opacity";
 
 // utilities
 $utilities: 
-  // (text_align, $text_align_responsive),
-  // (text_weight, $text_weight_responsive),
-  // (text_truncate, $text_truncate_responsive),
-  // (white_space, $white_space_responsive),
-  // (text_decoration, $text_decoration_responsive),
-  // (text_style, $text_style_responsive),
-  // (text_transform, $text_transform_responsive),
-  // (break_word, $break_word_responsive),
-  // (vertical_align, $vertical_align_responsive),
-  // (padding, $padding_responsive),
-  // (margin, $margin_responsive),
-  // (visibility, $visibility_responsive),
-  // (display, $display_responsive),
-  // (position, $position_responsive),
-  // (float, $float_responsive),
-  // (overflow, $overflow_responsive),
-  // (border_width, $border_width_responsive),
+  (text_align, $text_align_responsive),
+  (font_weight, $font_weight_responsive),
+  (text_truncate, $text_truncate_responsive),
+  (white_space, $white_space_responsive),
+  (text_decoration, $text_decoration_responsive),
+  (font_style, $font_style_responsive),
+  (text_transform, $text_transform_responsive),
+  (break_word, $break_word_responsive),
+  (vertical_align, $vertical_align_responsive),
+  (padding, $padding_responsive),
+  (margin, $margin_responsive),
+  (visibility, $visibility_responsive),
+  (display, $display_responsive),
+  (position, $position_responsive),
+  (float, $float_responsive),
+  (overflow, $overflow_responsive),
+  (border_width, $border_width_responsive),
   (border_color, $border_color_responsive),
+  (flex, $flex_responsive),
+  (color, $color_responsive),
+  (background_color, $background_color_responsive),
+  (font_family, $font_family_responsive),
+  (user_select, $user_select_responsive),
+  (list, $list_responsive),
+  (aspect_ratio, $aspect_ratio_responsive),
+  (width, $width_responsive),
+  (max_width, $max_width_responsive),
+  (height, $height_responsive),
+  (max_height, $max_height_responsive),
+  (inset, $inset_responsive),
+  (pointer_events, $pointer_events_responsive),
+  (object_position, $object_position_responsive),
+  (object_fit, $object_fit_responsive),
+  (opacity, $opacity_responsive),
 ;
 
 @include utilities_generator($utilities);

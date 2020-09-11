@@ -1,0 +1,6 @@
+@mixin pointer_events($variant: "") {
+  $base_class_name: pe#{$variant};
+
+  .#{$base_class_name}_none { pointer-events: none !important; }
+  .#{$base_class_name}_auto { pointer-events: auto !important; }
+}

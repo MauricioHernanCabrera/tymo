@@ -1,0 +1,13 @@
+@mixin object_position($variant: "") {
+  $base_class_name: object_position#{$variant};
+  
+  .#{$base_class_name}_bottom       { object-position: bottom !important; }
+  .#{$base_class_name}_center       { object-position: center !important; }
+  .#{$base_class_name}_left         { object-position: left !important; }
+  .#{$base_class_name}_right        { object-position: right !important; }
+  .#{$base_class_name}_top          { object-position: top !important; }
+  .#{$base_class_name}_left_bottom  { object-position: left bottom !important; }
+  .#{$base_class_name}_left_top     { object-position: left top !important; }
+  .#{$base_class_name}_right_bottom { object-position: right bottom !important; }
+  .#{$base_class_name}_right_top    { object-position: right top !important; }
+}

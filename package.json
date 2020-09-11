@@ -5,7 +5,8 @@
   "main": "scss/tymo.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node-sass -w scss\\tymo.scss dist\\tymo.css"
+    "dev": "node-sass -w scss\\tymo.scss dist\\tymo.css",
+    "build": "node-sass scss\\tymo.scss dist\\tymo.min.css --output-style compressed"
   },
   "repository": {
     "type": "git",

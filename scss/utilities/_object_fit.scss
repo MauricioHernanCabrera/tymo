@@ -1,0 +1,9 @@
+@mixin object_fit($variant: "") {
+  $base_class_name: object_fit#{$variant};
+  
+  .#{$base_class_name}_fill       { object-fit: fill !important; }
+  .#{$base_class_name}_contain    { object-fit: contain !important; }
+  .#{$base_class_name}_cover      { object-fit: cover !important; }
+  .#{$base_class_name}_none       { object-fit: none !important; }
+  .#{$base_class_name}_scale_down { object-fit: scale-down !important; }
+}

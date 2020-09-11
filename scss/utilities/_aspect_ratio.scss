@@ -1,0 +1,25 @@
+.aspect_ratio {
+  position: relative;
+  width: 100%;
+
+  &::before {
+    display: block;
+    content: "";
+  }
+}
+
+.aspect_ratio__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin aspect_ratio($variant: "") {
+  @each $x, $y in $aspect_ratios {
+    .aspect_ratio#{$variant}--#{$x}by#{$y}::before {
+      padding-top: percentage($y / $x);
+    }
+  }
+}

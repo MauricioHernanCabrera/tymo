@@ -1,0 +1,7 @@
+@mixin background_color($variant: "") {
+  $base_class_name: bg#{$variant};
+  
+  @each $key, $value in map-merge($theme_colors, (transparent: transparent)) {
+    .#{$base_class_name}_#{$key} { background-color: $value !important; }
+  }
+}

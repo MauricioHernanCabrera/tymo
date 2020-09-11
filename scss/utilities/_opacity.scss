@@ -1,0 +1,7 @@
+@mixin opacity($variant: "") {
+  $base_class_name: opacity#{$variant};
+  
+  @each $key, $value in $opacities {
+    .#{$base_class_name}_#{$key} { opacity: $value !important; }
+  }
+}

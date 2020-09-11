@@ -1,0 +1,7 @@
+@mixin list($variant: "") {
+  $base_class_name: list#{$variant};
+  
+  .#{$base_class_name}_none    { list-style: none !important; }
+  .#{$base_class_name}_disc    { list-style: disc !important; }
+  .#{$base_class_name}_decimal { list-style: decimal !important; }
+}

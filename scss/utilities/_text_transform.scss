@@ -1,8 +1,8 @@
 @mixin text_transform($variant: "") {
   $base_class_name: text_transform#{$variant};
   
-  .#{$base_class_name}_uppercase  { text-transform: uppercase !important }
-  .#{$base_class_name}_lowercase  { text-transform: lowercase !important }
-  .#{$base_class_name}_none       { text-transform: none !important }
-  .#{$base_class_name}_capitalize { text-transform: capitalize !important }
+  .#{$base_class_name}_uppercase  { text-transform: uppercase !important; }
+  .#{$base_class_name}_lowercase  { text-transform: lowercase !important; }
+  .#{$base_class_name}_none       { text-transform: none !important; }
+  .#{$base_class_name}_capitalize { text-transform: capitalize !important; }
 }

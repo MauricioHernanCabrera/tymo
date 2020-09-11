@@ -1,5 +1,5 @@
-@mixin text_weight($variant: "") {
-  $base_class_name: text_weight#{$variant};
+@mixin font_weight($variant: "") {
+  $base_class_name: font_weight#{$variant};
 
   .#{$base_class_name}_thin        { font-weight: 100 !important; }
   .#{$base_class_name}_extra_light { font-weight: 200 !important; }
