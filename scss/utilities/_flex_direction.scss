@@ -1,0 +1,6 @@
+@mixin flex_direction($variant: "") {
+  .flex_direction#{$variant}_row            { flex-direction: row !important; }
+  .flex_direction#{$variant}_row_reverse    { flex-direction: row-reverse !important; }
+  .flex_direction#{$variant}_column         { flex-direction: column !important; }
+  .flex_direction#{$variant}_column_reverse { flex-direction: column-reverse !important; }
+}

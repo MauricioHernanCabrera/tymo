@@ -1,0 +1,7 @@
+@mixin align_items($variant: "") {
+  .align_items#{$variant}_start    { align-items: flex-start !important; }
+  .align_items#{$variant}_end      { align-items: flex-end !important; }
+  .align_items#{$variant}_center   { align-items: center !important; }
+  .align_items#{$variant}_baseline { align-items: baseline !important; }
+  .align_items#{$variant}_stretch  { align-items: stretch !important; }
+}

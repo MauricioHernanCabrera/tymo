@@ -1,0 +1,8 @@
+@mixin align_self($variant: "") {
+  .align_self#{$variant}_auto     { align-self: auto !important; }
+  .align_self#{$variant}_start    { align-self: flex-start !important; }
+  .align_self#{$variant}_end      { align-self: flex-end !important; }
+  .align_self#{$variant}_center   { align-self: center !important; }
+  .align_self#{$variant}_baseline { align-self: baseline !important; }
+  .align_self#{$variant}_stretch  { align-self: stretch !important; }
+}

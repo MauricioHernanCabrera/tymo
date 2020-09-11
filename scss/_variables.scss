@@ -56,7 +56,6 @@ $margin_responsive:           true !default;
 $overflow_responsive:         false !default;
 $border_width_responsive:     false !default;
 $border_color_responsive:     false !default;
-$flex_responsive:             true !default;
 $color_responsive:            false !default;
 $background_color_responsive: false !default;
 $font_family_responsive:      false !default;
@@ -72,15 +71,25 @@ $pointer_events_responsive:   false !default;
 $object_position_responsive:  false !default;
 $object_fit_responsive:       false !default;
 $opacity_responsive:          false !default;
+$flex_direction_responsive:   true !default;
+$flex_wrap_responsive:        true !default;
+$justify_content_responsive:  true !default;
+$align_items_responsive:      true !default;
+$align_content_responsive:    true !default;
+$align_self_responsive:       true !default;
+$order_responsive:            true !default;
+$flex_grow_responsive:        true !default;
+$flex_shrink_responsive:      true !default;
+$rounded_responsive:          false !default;
 
 // padding
-$padding_min:        0 !default;
-$padding_max:        5 !default;
-$padding_multiple:   4px !default;
+$padding_min:      0 !default;
+$padding_max:      5 !default;
+$padding_multiple: 4px !default;
 
 // margin
-$margin_min: 0 !default;
-$margin_max: 5 !default;
+$margin_min:      0 !default;
+$margin_max:      5 !default;
 $margin_multiple: 4px !default;
 
 // debugger
@@ -157,4 +166,27 @@ $opacities: (
   50:  0.5,
   75:  0.75,
   100: 1,
+) !default;
+
+// flex grow
+$flex_grow: (
+  0: 0,
+  1: 1,
+) !default;
+
+// flex shrink
+$flex_shrink: (
+  0: 0,
+  1: 1,
+) !default;
+
+// border radius
+$rounded: (
+  1:      1px,
+  sm:     3px,
+  md:     5px,
+  lg:     10px,
+  circle: 50%,
+  pill:   120px,
+  0:      0,
 ) !default;
