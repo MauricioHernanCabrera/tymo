@@ -1,5 +1,8 @@
 @import "variables";
 
+// functions
+@import "functions/color_contrast";
+
 // mixins
 @import "mixins/breakpoint";
 @import "mixins/call_mixin";
@@ -101,3 +104,11 @@ $utilities:
 ;
 
 @include utilities_generator($utilities);
+
+
+@each $key, $value in $theme_colors {
+  .button--#{$key} {
+    background-color: $value;
+    color: color_contrast($value);
+  }
+}
