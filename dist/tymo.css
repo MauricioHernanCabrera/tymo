@@ -502,6 +502,9 @@
 .d_inline_flex {
   display: inline-flex !important; }
 
+.d_flex {
+  display: flex !important; }
+
 .position_static {
   position: static !important; }
 
@@ -1315,6 +1318,8 @@
     display: table-cell !important; }
   .d_sm_inline_flex {
     display: inline-flex !important; }
+  .d_sm_flex {
+    display: flex !important; }
   .flex_direction_sm_row {
     flex-direction: row !important; }
   .flex_direction_sm_row_reverse {
@@ -1675,6 +1680,8 @@
     display: table-cell !important; }
   .d_md_inline_flex {
     display: inline-flex !important; }
+  .d_md_flex {
+    display: flex !important; }
   .flex_direction_md_row {
     flex-direction: row !important; }
   .flex_direction_md_row_reverse {
@@ -2035,6 +2042,8 @@
     display: table-cell !important; }
   .d_lg_inline_flex {
     display: inline-flex !important; }
+  .d_lg_flex {
+    display: flex !important; }
   .flex_direction_lg_row {
     flex-direction: row !important; }
   .flex_direction_lg_row_reverse {
@@ -2395,6 +2404,8 @@
     display: table-cell !important; }
   .d_xl_inline_flex {
     display: inline-flex !important; }
+  .d_xl_flex {
+    display: flex !important; }
   .flex_direction_xl_row {
     flex-direction: row !important; }
   .flex_direction_xl_row_reverse {
@@ -2755,6 +2766,8 @@
     display: table-cell !important; }
   .d_xxl_inline_flex {
     display: inline-flex !important; }
+  .d_xxl_flex {
+    display: flex !important; }
   .flex_direction_xxl_row {
     flex-direction: row !important; }
   .flex_direction_xxl_row_reverse {
@@ -2847,3 +2860,35 @@
     flex-shrink: 0 !important; }
   .flex_shrink_1 {
     flex-shrink: 1 !important; } }
+
+.button--primary {
+  background-color: #1867C0;
+  color: #fff; }
+
+.button--success {
+  background-color: #4CAF50;
+  color: #000; }
+
+.button--warning {
+  background-color: #FB8C00;
+  color: #000; }
+
+.button--error {
+  background-color: #FF5252;
+  color: #000; }
+
+.button--info {
+  background-color: #5CBBF6;
+  color: #000; }
+
+.button--light {
+  background-color: #ffffff;
+  color: #000; }
+
+.button--dark {
+  background-color: #333333;
+  color: #fff; }
+
+.button--grey {
+  background-color: #EEEEEE;
+  color: #000; }
